@@ -1,0 +1,250 @@
+/*
+TYPE SELECTORS
+CONTEXTUAL SELECTORS
+PSEUDO CLASS SELECTORS
+ATTRIBUTE SELECTORS
+CLASS OR ID SELECTORS
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+/* === CSS Typography === */
+
+.button-txt-color {
+    color: #95ABFF;
+    /*#FF9900;*/
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+}
+
+li {
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+/* === CSS Backgrounds === */
+
+.bg-footer-container {
+    background-color: #522084;
+}
+
+header {
+    background-color: #FFF;
+}
+
+body {
+    background-color: #95ABFF;
+}
+
+
+/*
+footer {
+    background-color: #522084;
+    height:75px;
+}
+*/
+
+
+/* === CSS Box Model === */
+
+header {
+    margin: 0 auto;
+}
+
+#name {
+    padding-left: 367px;
+    padding-top: 15px;
+    box-sizing: border-box;
+}
+
+h2 {
+    margin-left: 39px;
+    font-family: 'Open Sans', sans-serif;
+    /*    text-decoration: underline;*/
+}
+
+.push-down-content {
+    padding-top: 20px;
+    box-sizing: border-box;
+}
+
+#first-col-padding {
+    padding-left: 330px;
+    box-sizing: border-box;
+}
+
+#second-col-padding {
+    padding-left: 140px;
+    box-sizing: border-box;
+}
+
+#third-col-padding {
+    box-sizing: border-box;
+}
+
+.border-button {
+    border: 2px solid #fff;
+    /*    margin-top: 50px;*/
+    padding: 10px 40px;
+    width: 300px;
+    border-radius: 15px;
+    margin-right: 15px;
+}
+
+#padding-right {
+    padding-left: 35px;
+}
+
+
+/*
+#email  {
+    margin-bottom:100px;
+}
+*/
+
+#val-html {}
+
+#val-css {}
+
+
+/* === CSS Grid === */
+
+header {
+    width: 800px;
+    height: 250px;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.row:after {
+    clear: both;
+    content: " ";
+    display: table;
+}
+
+
+/* === CSS Positioning  === */
+
+footer {
+    position: static;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    text-align: center;
+    background-color: #522084;
+    
+}
+
+
+/*
+footer {
+position:absolute;
+   bottom:0;
+   width:100%;
+   height:60px;    Height of the footer 
+}
+*/
+
+#clear-left-floats {
+    clear: left;
+}
+
+
+/* === CSS Helper Classes === */
+
+.align-right {
+    text-align: right;
+}
+
+.align-center {
+    text-align: center;
+}
+
+.align-left {
+    text-align: left;
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+
+/* === CSS Extra === */
+
+h2 {
+    color: #fff;
+}
+
+a {
+    text-decoration: none;
+}
+/*
+li a {
+    color: yellow;
+}
+*/
+li a:visited {
+    color: #522084;
+}
+.ch-width {
+    
+}
+/*
+li {
+    list-style-type: none;
+}
+
+ol {
+    list-style: none;
+    counter-reset: li;
+}
+
+li {
+    counter-increment: li;
+}
+
+ol li::before {
+    content: counter(li);
+    color: #fff;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+ul li:before {
+    content: "• ";
+    color: #fff;
+     or whatever color you prefer 
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+*/
+
+li a:hover {
+    color: #fff;
+}
+
+p a:hover {
+    background-color: #95ABFF;
+    /*#FF9900;*/
+    border: 2px solid #95ABFF;
+    /*    margin-top: 50px;*/
+    padding: 10px 40px;
+    color: #fff;
+    width: 300px;
+    border-radius: 20px;
+    margin-right: 15px;
+}
+
+
+/* === CSS Helper Classes === */
