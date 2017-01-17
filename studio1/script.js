@@ -5,7 +5,8 @@
 console.log("this is a js comment");
 
 function setup() {
-  createCanvas(800, 250);
+  var canvas = createCanvas(800, 250);
+  canvas.parent('mySketch');
   background(255);
 }
 
