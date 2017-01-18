@@ -4,10 +4,11 @@
 // like print() messages in Processing
 console.log("this is a js comment");
 
+
 function setup() {
   var canvas = createCanvas(800, 250);
   canvas.parent('mySketch');
-  background(255);
+  background(90,40,240);
 }
 
 function draw() {
