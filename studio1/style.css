@@ -7,8 +7,8 @@ CLASS OR ID SELECTORS
 */
 
 
-
 /* === CSS Typography === */
+
 .button-txt-color {
     color: #fff;
 }
@@ -27,6 +27,7 @@ p {
 
 
 /* === CSS Backgrounds === */
+
 .bg-footer-container {
     background-color: #522084;
 }
@@ -47,6 +48,7 @@ footer {
 
 
 /* === CSS Box Model === */
+
 #name {
     padding-left: 477px;
     padding-top: 15px;
@@ -90,6 +92,7 @@ h2 {
 
 
 /* === CSS Grid === */
+
 header {
     width: 800px;
     height: 250px;
@@ -98,6 +101,7 @@ header {
 .border-button {
     width: 300px;
 }
+
 .col-4 {
     width: 33.33%;
 }
@@ -132,7 +136,9 @@ header {
     float: right;
 }
 
+
 /* === CSS Extra === */
+
 a {
     text-decoration: none;
 }
