@@ -1,14 +1,5 @@
-/*
-TYPE SELECTORS
-CONTEXTUAL SELECTORS
-PSEUDO CLASS SELECTORS
-ATTRIBUTE SELECTORS
-CLASS OR ID SELECTORS
-*/
-
-
-
 /* === CSS Typography === */
+
 .button-txt-color {
     color: #fff;
 }
@@ -17,28 +8,16 @@ h1 {
     font-family: 'Open Sans', sans-serif;
 }
 
-li {
-    font-family: 'Open Sans', sans-serif;
-}
-
 p {
     font-family: 'Open Sans', sans-serif;
 }
 
 
+
 /* === CSS Backgrounds === */
-.bg-footer-container {
-    background-color: #522084;
-}
 
 body {
     background-color: #95ABFF;
-}
-
-#mySketch {
-    clear: left;
-    margin: auto;
-    padding-top: 30px;
 }
 
 footer {
@@ -46,11 +25,17 @@ footer {
 }
 
 
+
 /* === CSS Box Model === */
+
 #name {
     margin-left: 50px;
     margin-bottom: 100px;
     box-sizing: border-box;
+}
+
+.mar-bottom {
+    margin-bottom: 40px;
 }
 
 h2 {
@@ -58,26 +43,8 @@ h2 {
     margin-bottom: 20px;
 }
 
-.push-down-content {
-    padding-top: 20px;
-    box-sizing: border-box;
-}
-
 .mv-txt-left {
-    
-}
-#first-col-padding {
-    padding-left: 330px;
-    box-sizing: border-box;
-}
-
-#second-col-padding {
-    padding-left: 140px;
-    box-sizing: border-box;
-}
-
-#third-col-padding {
-    box-sizing: border-box;
+    margin: auto;
 }
 
 .border-button {
@@ -92,10 +59,13 @@ h2 {
 }
 
 
+
 /* === CSS Grid === */
+
 .border-button {
     width: 300px;
 }
+
 .col-4 {
     width: 33.33%;
 }
@@ -103,15 +73,20 @@ h2 {
 .col-6 {
     width: 50%;
 }
+
 .flex {
-    display: flex; 
+    display: flex;
     justify-content: space-around;
 }
 
 h1 {
-    margin-left:120px;
+    margin-left: 120px;
 }
+
+
+
 /* === CSS Positioning  === */
+
 
 
 /* === CSS Helper Classes === */
@@ -140,7 +115,9 @@ h1 {
     float: right;
 }
 
+
 /* === CSS Extra === */
+
 a {
     text-decoration: none;
 }
