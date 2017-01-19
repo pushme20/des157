@@ -138,6 +138,10 @@ h2 {
     color: #fff;
 }
 
+ul li {
+    list-style-type: none;
+}
+
 li a:visited {
     color: #522084;
 }
