@@ -1,0 +1,156 @@
+/* === CSS Typography === */
+
+.button-txt-color {
+    color: #fff;
+}
+
+h2 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+li {
+    font-family: 'Open Sans', sans-serif;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+/* === CSS Backgrounds === */
+
+.bg-footer-container {
+    background-color: #522084;
+}
+
+body {
+    background-color: #95ABFF;
+}
+
+footer {
+    padding-top: 50px;
+}
+
+#mySketch {
+    clear: left;
+    margin: auto;
+    padding-top: 30px;
+}
+
+
+/* === CSS Box Model === */
+
+.border-button {
+    padding: 10px 40px;
+    border-radius: 15px;
+    margin-right: 15px;
+    background-color: #522084;
+}
+
+#first-col-padding {
+    padding-left: 330px;
+    box-sizing: border-box;
+}
+
+h2 {
+    margin-left: 39px;
+    margin-bottom: 20px;
+}
+
+#name {
+    padding-left: 370px;
+    padding-top: 15px;
+    box-sizing: border-box;
+}
+
+.push-down-content {
+    padding-top: 20px;
+    box-sizing: border-box;
+}
+
+#second-col-padding {
+    padding-left: 140px;
+    box-sizing: border-box;
+}
+
+#third-col-padding {
+    box-sizing: border-box;
+}
+
+#padding-right {
+    padding-left: 35px;
+}
+
+
+/* === CSS Grid === */
+
+.border-button {
+    width: 300px;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+header {
+    width: 800px;
+    height: 250px;
+}
+
+
+/* === CSS Positioning  === */
+
+
+/* === CSS Helper Classes === */
+
+.align-right {
+    text-align: right;
+}
+
+.align-center {
+    text-align: center;
+}
+
+.align-left {
+    text-align: left;
+}
+
+.clear-left {
+    clear: left;
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+
+/* === CSS Extra === */
+
+a {
+    text-decoration: none;
+}
+
+h2 {
+    color: #fff;
+}
+
+li a:visited {
+    color: #522084;
+}
+
+li a:hover {
+    color: #fff;
+}
+
+p a:hover {
+    background-color: #fff;
+    padding: 10px 40px;
+    color: #522084;
+    width: 300px;
+    border-radius: 20px;
+    margin-right: 15px;
+}
