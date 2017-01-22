@@ -30,11 +30,19 @@
     <h1>Chapter 2 Exericse - Looping a Triangle</h1>
 
     <script>
+        //include ready statement at beginning of script for safe DOM manipulation
+        console.log('ready');
+        //variables initialized to values that will be affected
         var a = "";
         var b = "#";
+        //for loop created starting at a value of 1 and going up to 8
+        //will print seven lines and the number of "#" will increase per line
         for (var i = 1; i < 8; i++) {
+            //shortcut += operator fully reads: a = a + b, will aid in the
+            //increase of "#" symbols per line.
             a += b;
+            //print 'a's value to the console
             console.log(a);
-        } // ADD DESCRIPTIVE COMMENTS BEFORE STATEMENTS AND BLOCK OF CODE
+        } // end for
     </script>
 </body>
