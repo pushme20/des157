@@ -31,17 +31,34 @@
     <script>
         //include ready statement at beginning of script for safe DOM manipulation
         console.log('ready');
-        //variables initialized to values that will be affected
-        var a = "";
-        var b = "#";
-        //for loop created starting at a value of 1 and going up to 8
-        //will print seven lines and the number of "#" will increase per line
-        for (var i = 1; i < 8; i++) {
-            //shortcut += operator fully reads: a = a + b, will aid in the
-            //increase of "#" symbols per line.
-            a += b;
-            //print 'a's value to the console
-            console.log(a);
-        } // end for
+        //variables initialized to integers
+        var val1 = 4;
+        var val2 = 5;
+        var val3 = 15;
+        var val4 = 12;
+        var val5 = 81;
+        var val6 = 81;
+
+        function min(num1, num2) {
+            //if 1st is larger than the 2nd, return the 2nd
+            if (num1 > num2) {
+                return num2;
+            }
+
+            //if 1st is equal(strict) to the 2nd, return a response and return one of the values
+            else if (num1 === num2) {
+                return "No minimum, values are equal: " + num1;
+            }
+
+            else {
+                return num1;
+            }
+        } // end min function
+
+        //covers three test cases: 1st num > 2nd num; 2nd num > 1st num; and 1st num === 2nd num
+        //more detailed log
+        console.log("Values: " + val1 + " \& " + val2 + " Min: " + min(val1, val2));
+        console.log("Values: " + val3 + " \& " + val4 + " Min: " + min(val3, val4));
+        console.log("Values: " + val5 + " \& " + val6 + " Min: " + min(val5, val6));
     </script>
 </body>
