@@ -5,10 +5,10 @@ document.addEventListener("DOMContentLoaded", function(event) {
 
     // all other js here
 
-    document.madlibs.onsubmit = processForm;
+    document.madlib.onsubmit = processForm;
 
     function processForm() {
-        var question1 = document.madlibs.question1.value;
+        var question1 = document.madlib.name.value;
         if (question1 == "Yesterday") {
             console.log("Submit successful");
         }
