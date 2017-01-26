@@ -4,6 +4,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
     console.log("DOM fully loaded and parsed");
 
     // all other js here
+
     document.madlibs.onsubmit = processForm;
 
     function processForm() {
@@ -12,15 +13,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
             console.log("Submit successful");
         }
 
-
-
-
-
-
-
-
+        return false;
     }
-
-
 
 });
