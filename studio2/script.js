@@ -13,23 +13,32 @@ document.addEventListener("DOMContentLoaded", function(event) {
         var question3 = document.madlib.q3.value;
         var question4 = document.madlib.q4.value;
         var question5 = document.madlib.q5.value;
+        var count = 0;
+        if (question1 == "Yesterday") {
+            count++;
 
-        if (question1 == "a") {
-            console.log("Submit successful");
+
         }
         if (question2 == "b") {
-            console.log("Submit successful");
+            count++;
+
         }
         if (question3 == "c") {
-            console.log("Submit successful");
+            count++;
+
         }
         if (question4 == "d") {
-            console.log("Submit successful");
+            count++;
+
         }
         if (question5 == "e") {
-            console.log("Submit successful");
+            count++;
         }
 
+        if (count < 4) {
+            innerHTML
+            console.log("Sorry, looks like you're a Beetle!");
+        }
         return false;
     }
 
