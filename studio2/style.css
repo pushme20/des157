@@ -6,47 +6,60 @@
 /* start all css with a reset */
 
 * {
-  margin: 0px;
-  padding: 0px
+    margin: 0px;
+    padding: 0px
 }
 
 
 /* === CSS Typography === */
 
 .button-txt-color {
-  color: #fff;
+    color: #fff;
 }
 
 
 /* === CSS Box Model === */
 
 .border-button {
-  padding: 10px 40px;
-  border-radius: 15px;
-  margin-right: 15px;
-  background-color: #522084;
+    padding: 10px 40px;
+    border-radius: 15px;
+    margin-right: 15px;
+    background-color: #522084;
 }
 
 #padding-right {
-  padding-left: 35px;
+    padding-left: 35px;
 }
 
 .align-center {
-  text-align: center;
+    text-align: center;
 }
 
 
 /* === CSS Extra === */
 
 a {
-  text-decoration: none;
+    text-decoration: none;
 }
 
 p a:hover {
-  background-color: #fff;
-  padding: 10px 40px;
-  color: #522084;
-  width: 300px;
-  border-radius: 20px;
-  margin-right: 15px;
+    background-color: #fff;
+    padding: 10px 40px;
+    color: #522084;
+    width: 300px;
+    border-radius: 20px;
+    margin-right: 15px;
+}
+
+#spinning-regis {
+    -webkit-animation: rotation 2s infinite linear;
+}
+
+@-webkit-keyframes rotation {
+    from {
+        -webkit-transform: rotate(0deg);
+    }
+    to {
+        -webkit-transform: rotate(359deg);
+    }
 }
