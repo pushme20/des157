@@ -7,7 +7,7 @@
 
 * {
     margin: 0px;
-    padding: 0px
+    padding: 0px;
 }
 
 
@@ -15,6 +15,13 @@
 
 .button-txt-color {
     color: #fff;
+}
+
+header h1 {
+    font-family: "Viner Hand ITC", Arial, sans-serif;
+    font-size: 70px;
+    font-weight: 400;
+    text-align: center;
 }
 
 
@@ -51,7 +58,8 @@ p a:hover {
     margin-right: 15px;
 }
 
-#spinning-regis {
+
+/*#spinning-regis {
     -webkit-animation: rotation 2s infinite linear;
 }
 
@@ -62,4 +70,4 @@ p a:hover {
     to {
         -webkit-transform: rotate(359deg);
     }
-}
+}*/
