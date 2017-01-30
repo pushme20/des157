@@ -32,6 +32,12 @@ label {
     font-size: 24px;
 }
 
+.final-question {
+    color: #fff;
+    font-family: "Berlin Sans FB", Arial, sans-serif;
+    font-size: 26px;
+}
+
 
 /* === CSS Backgrounds === */
 
@@ -112,6 +118,11 @@ input[type="submit"] {
     margin-left: 266px;
 }
 
+.final-question {
+    margin-top: 30px;
+    text-align: center;
+}
+
 form {
     margin-left: 154px;
     margin-top: 60px;
@@ -127,6 +138,10 @@ form {
 
 .mar-top {
     margin-top: 50px;
+}
+
+.mar-top-med {
+    margin-top: 65px;
 }
 
 
@@ -196,14 +211,14 @@ input[type="submit"]:hover {
 
 
 /*#spinning-regis {
-    -webkit-animation: rotation 2s infinite linear;
+    animation: rotating 2s infinite linear;
 }
 
-@-webkit-keyframes rotation {
+@keyframes rotating {
     from {
-        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
     }
     to {
-        -webkit-transform: rotate(359deg);
+        transform: rotate(359deg);
     }
 }*/
