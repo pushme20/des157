@@ -22,6 +22,26 @@ header h1 {
     font-size: 70px;
     font-weight: 400;
     text-align: center;
+    color: #fff;
+}
+
+label {
+    color: #fff;
+    font-family: "Showcard Gothic", Arial, sans-serif;
+    ;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+
+/* === CSS Backgrounds === */
+
+header {
+    background-color: #FF9A45;
+}
+
+body {
+    background-color: #2E7FE7;
 }
 
 
@@ -38,8 +58,36 @@ header h1 {
     padding-left: 35px;
 }
 
+form {
+    margin-left: 70px;
+}
+
 .align-center {
     text-align: center;
+}
+
+
+/* === CSS Grid === */
+
+.column {
+    float: left;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.row:after {
+    clear: both;
+    content: " ";
+    display: table;
+}
+
+
+/* === CSS Helper Classes === */
+
+.clear-left {
+    clear: left;
 }
 
 
@@ -71,3 +119,7 @@ p a:hover {
         -webkit-transform: rotate(359deg);
     }
 }*/
+
+
+}
+*/
