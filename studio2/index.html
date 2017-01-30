@@ -10,45 +10,61 @@
 
 <body>
     <header>
-        <h1>Mad Libs 2.0 - Name that Viral Video!</h1></header>
+        <h1>Mad Libs 2.0 - Name that Viral Video!</h1>
+    </header>
+
     <main>
+        <div class="row">
+            <section class="col-6 column">
+                <form name="madlib">
+                    <div>
+                        <label class="label-font-style">Verb</label>
+                        <input type="text" name="field1">
+                    </div>
 
-        <p>Please fill out this form honestly, if you don't you won't know what or who you really are...</p>
+                    <div>
+                        <label class="label-font-style">Number</label>
+                        <input type="text" name="field2">
+                    </div>
 
-        <form name="madlib">
-            <div>
-                <label>Verb</label>
-                <input type="text" name="q1">
-            </div>
+                    <div>
+                        <label class="label-font-style">Amount (i.e. billion, million)</label>
+                        <input type="text" name="field3">
+                    </div>
 
-            <div>
-                <label>Number</label>
-                <input type="text" name="q2">
-            </div>
+                    <div>
+                        <label class="label-font-style">Media Platform</label>
+                        <input type="text" name="field4">
+                    </div>
 
-            <div>
-                <label>Amount (i.e. billion, million)</label>
-                <input type="text" name="q3">
-            </div>
+                    <div>
+                        <label class="label-font-style">Year</label>
+                        <input type="text" name="field5">
+                    </div>
 
-            <div>
-                <label>Media Platform</label>
-                <input type="text" name="q4">
-            </div>
+                    <div>
+                        <label class="label-font-style">Year</label>
+                        <input type="text" name="field6">
+                    </div>
 
-            <div>
-                <label>Year</label>
-                <input type="text" name="q5">
-            </div>
+                    <input type="reset" value="reset" />
+                    <input type="submit" value="submit" />
+                </form>
+            </section>
 
-            <div>
-                <label>Year</label>
-                <input type="text" name="q5">
-            </div>
+            <section class="col-6 column">
+                <p>
+                    Final question, you have 30 seconds: This video acheived over 1 billion views on Youtube with its catchy 2012 song about dancing:</p>
+                <audio autoplay="">
+                <source src="chopped_millionaire_timer_full.mp3" type="audio/mpeg">
+              </audio>
 
-            <input type="reset" value="reset" />
-            <input type="submit" value="submit" />
-        </form>
+                <img id="spinning-regis" src="regis-compressor-ps.jpg" width=400 height=400 alt="head of regis philbin" />
+            </section>
+
+
+
+        </div>
         <!-- <img src="beetle_with_sound.gif" alt="animated beetle gif" /> -->
         <!-- <video width="640" height="500" controls loop>
   <source src="apple_pineapple_snippet.mp4" type="video/mp4">
@@ -59,19 +75,15 @@
 </audio> -->
 
 
-        <audio autoplay="">
 
-<source src="chopped_millionaire_timer_full.mp3" type="audio/mpeg">
-</audio>
-
-        <img id="spinning-regis" src="regis.jpg" alt="head of regis philbin" />
     </main>
 
     <!-- <div>
         <footer class="clear-left align-center">
             <p>
                 <a href="https://validator.w3.org/check?uri=referer" class="border-button button-txt-color" id="padding-right">&nbsp;Valid HTML 5</a>
-                <a href="https://jigsaw.w3.org/css-validator/check/referer" class="border-button button-txt-color">Valid CSS</a></p>
+                <a href="https://jigsaw.w3.org/css-validator/check/referer" class="border-button button-txt-color">Valid CSS</a>
+            </p>
         </footer>
     </div> -->
 </body>
