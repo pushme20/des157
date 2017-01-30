@@ -28,7 +28,6 @@ header h1 {
 label {
     color: #fff;
     font-family: "Showcard Gothic", Arial, sans-serif;
-    ;
     font-weight: 400;
     font-size: 24px;
 }
@@ -42,6 +41,36 @@ header {
 
 body {
     background-color: #2E7FE7;
+}
+
+input {
+    color: #8B1300;
+    font-family: "Showcard Gothic", Arial, sans-serif;
+    font-size: 15px;
+}
+
+.f1-space {
+    margin-left: 275px;
+}
+
+.f2-space {
+    margin-left: 239px;
+}
+
+.f3-space {
+    margin-left: 81px;
+}
+
+.f4-space {
+    margin-left: 132px;
+}
+
+.f5-space {
+    margin-left: 274px;
+}
+
+.f6-space {
+    margin-left: 266px;
 }
 
 
@@ -59,7 +88,12 @@ body {
 }
 
 form {
-    margin-left: 70px;
+    margin-left: 154px;
+    margin-top: 60px;
+}
+
+.field-spacing {
+    margin-bottom: 30px;
 }
 
 .align-center {
@@ -119,7 +153,3 @@ p a:hover {
         -webkit-transform: rotate(359deg);
     }
 }*/
-
-
-}
-*/
