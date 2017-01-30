@@ -1,0 +1,37 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 298.89 69.2">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #ca8bff;
+        stroke: #e1ff8b;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-2 {
+        font-size: 14.06px;
+      }
+
+      .cls-2, .cls-4 {
+        font-family: Myriad Pro;
+      }
+
+      .cls-3 {
+        letter-spacing: -1px;
+      }
+
+      .cls-4 {
+        font-size: 7.31px;
+      }
+    </style>
+  </defs>
+  <title>millionaire_choices</title>
+  <path class="cls-1" d="M308.5,415.94V382.12l115.21,0.19A49.87,49.87,0,0,0,434,391.65c4.67,3.19,10.7,2.47,17.93,4.86,4.43,1.46,6.11,4.21,5.2,4.34-3.64.53-23.18,4.94-34.6,15.29Z" transform="translate(-158.99 -381.5)"/>
+  <path class="cls-1" d="M308.5,450V415.94l115.21,0.2a50,50,0,0,0,10.31,9.4c4.67,3.21,10.7,2.49,17.93,4.89,4.43,1.47,6.11,4.24,5.2,4.37-3.64.54-23.18,5-34.6,15.4Z" transform="translate(-158.99 -381.5)"/>
+  <path class="cls-1" d="M308.5,416.13v33.81l-115.28-.19a50.7,50.7,0,0,0-10.34-9.33c-4.67-3.19-10.71-2.47-17.95-4.86-4.43-1.46-6.12-4.21-5.2-4.34,3.64-.53,23.25-4.94,34.66-15.29Z" transform="translate(-158.99 -381.5)"/>
+  <path class="cls-1" d="M308.5,382.2v33.94l-115.28-.2a50.78,50.78,0,0,0-10.34-9.36c-4.67-3.2-10.71-2.48-17.95-4.88-4.43-1.46-6.12-4.22-5.2-4.36,3.64-.53,23.25-5,34.66-15.34Z" transform="translate(-158.99 -381.5)"/>
+  <text class="cls-2" transform="translate(33.72 21.36)">P<tspan x="7.11" y="0">a</tspan><tspan x="13.89" y="0">r</tspan><tspan x="18.82" y="0">t</tspan><tspan x="23.6" y="0">y </tspan><tspan x="33.21" y="0">R</tspan><tspan x="40.83" y="0">ock </tspan><tspan x="64.42" y="0">A</tspan><tspan x="72.98" y="0">n</tspan><tspan x="80.72" y="0">them</tspan></text>
+  <text class="cls-2" transform="translate(44.36 54.19)">G<tspan x="9.19" y="0">an</tspan><tspan x="23.77" y="0">g</tspan><tspan x="31.55" y="0">nam </tspan><tspan x="60.83" y="0">S</tspan><tspan x="67.72" y="0">t</tspan><tspan x="72.5" y="0">yle</tspan></text>
+  <text class="cls-2" transform="translate(169.31 21.36)">Cho<tspan x="23.67" y="0">c</tspan><tspan x="29.89" y="0">ol</tspan><tspan x="40.92" y="0">a</tspan><tspan x="47.64" y="0">t</tspan><tspan x="52.21" y="0">e </tspan><tspan x="62.24" y="0">R</tspan><tspan x="69.97" y="0">ain</tspan></text>
+  <text class="cls-2" transform="translate(194.77 52.93)">P<tspan class="cls-3" x="7.48" y="0">P</tspan><tspan x="13.78" y="0">AP</tspan></text>
+  <text class="cls-4" transform="translate(172.15 62.69)">(<tspan x="2.08" y="0">P</tspan><tspan x="5.78" y="0">en </tspan><tspan x="15.05" y="0">P</tspan><tspan x="18.82" y="0">ineapple </tspan><tspan x="47.03" y="0">A</tspan><tspan x="51.49" y="0">pple </tspan><tspan x="66.74" y="0">P</tspan><tspan x="70.45" y="0">en)</tspan></text>
+</svg>
