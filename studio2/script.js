@@ -80,8 +80,11 @@ document.addEventListener("DOMContentLoaded", function(event) {
 
             // var start_audio = document.getElementById("countdown");
             // start_audio.play();
-            var start_audio = document.getElementById("countdown");
-            start_audio.play();
+            // var start_audio = document.getElementById("countdown");
+            // start_audio.play();
+            var mill_audio = document.getElementsByTagName("audio")[0];
+            mill_audio.play();
+
 
         }
     };
@@ -90,6 +93,9 @@ document.addEventListener("DOMContentLoaded", function(event) {
         document.getElementById('hide-regis').style.visibility = "hidden";
         var removeClass = document.getElementById('regis-pic');
         removeClass.classList.remove("spinning-regis");
+        var mill_audio = document.getElementsByTagName("audio")[0];
+        mill_audio.pause();
+        mill_audio.currentTime = 0;
         // var audio = document.getElementById("countdown");
     };
 });
