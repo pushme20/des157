@@ -7,6 +7,8 @@ document.addEventListener("DOMContentLoaded", function(event) {
 
     document.gameshow.onsubmit = processForm;
 
+
+
     function processForm() {
 
         // var field1 = document.gameshow.field1.value;
@@ -62,6 +64,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
             document.getElementById('hide-regis').style.visibility = "visible";
             var addClass = document.getElementById('regis-pic');
             addClass.classList.add("spinning-regis");
+
             inp1.classList.add("brown-color");
             inp1.innerHTML = field1;
             inp2.classList.add("brown-color");
@@ -74,6 +77,12 @@ document.addEventListener("DOMContentLoaded", function(event) {
             inp5.innerHTML = field5;
             inp6.classList.add("brown-color");
             inp6.innerHTML = field6;
+
+            // var start_audio = document.getElementById("countdown");
+            // start_audio.play();
+            var start_audio = document.getElementById("countdown");
+            start_audio.play();
+
         }
     };
 
@@ -81,6 +90,10 @@ document.addEventListener("DOMContentLoaded", function(event) {
         document.getElementById('hide-regis').style.visibility = "hidden";
         var removeClass = document.getElementById('regis-pic');
         removeClass.classList.remove("spinning-regis");
+        // var audio = document.getElementById("countdown");
+
+
     };
+
 
 });;
