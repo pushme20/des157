@@ -51,8 +51,8 @@ body {
 
 input[type="text"] {
     color: #8B1300;
-    font-family: "Berlin Sans FB", Arial, sans-serif;
-    font-size: 25px;
+    font-family: "Showcard Gothic", Arial, sans-serif;
+    font-size: 15px;
 }
 
 input[type="reset"] {
@@ -132,6 +132,10 @@ form {
     margin-bottom: 30px;
 }
 
+.align-center {
+    text-align: center;
+}
+
 .mar-top {
     margin-top: 50px;
 }
@@ -178,22 +182,6 @@ td {
 
 .clear-left {
     clear: left;
-}
-
-.align-center {
-    text-align: center;
-}
-
-.align-left {
-    text-align: left;
-}
-
-.mar-left {
-    margin-left: 156px;
-}
-
-#button-mar-left {
-    margin-left: 40px;
 }
 
 
@@ -255,5 +243,3 @@ td:hover {
         transform: rotate(359deg);
     }
 }*/
-
-*/ */ /
