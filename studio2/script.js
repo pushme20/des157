@@ -3,40 +3,9 @@
 document.addEventListener("DOMContentLoaded", function(event) {
     console.log("DOM fully loaded and parsed");
 
-    // all other js here
-
     document.gameshow.onsubmit = processForm;
 
-
-
     function processForm() {
-
-        // var field1 = document.gameshow.field1.value;
-        // var field2 = document.gameshow.field2.value;
-        // var field3 = document.gameshow.field3.value;
-        // var field4 = document.gameshow.field4.value;
-        // var field5 = document.gameshow.field5.value;
-        // var field6 = document.gameshow.field6.value;
-
-
-        // var reset = document.getElementById("reset_button").value;
-
-
-        // } else {
-        //     document.getElementById('hide-regis').style.visibility = "visible";
-        //     var addClass = document.getElementById('regis-pic');
-        //     addClass.classList.add("spinning-regis");
-        // }
-
-        // if (reset) {
-        //     reset_me();
-        // }
-        // if (reset) {
-        //     document.getElementById('hide-regis').style.visibility = "hidden";
-        //     var removeClass = document.getElementById('regis-pic');
-        //     removeClass.classList.remove("spinning-regis");
-        // }
-
         return false;
     }
 
@@ -78,14 +47,15 @@ document.addEventListener("DOMContentLoaded", function(event) {
             inp6.classList.add("brown-color");
             inp6.innerHTML = field6;
 
-            // var start_audio = document.getElementById("countdown");
-            // start_audio.play();
-            // var start_audio = document.getElementById("countdown");
-            // start_audio.play();
             var mill_audio = document.getElementsByTagName("audio")[0];
             mill_audio.play();
 
+            setTimeout(function() {
+                alert("Time's Up! Reset to try again :p");
+            }, 32000);
 
+            var answer = document.getElementById("correct1");
+            answer.play();
         }
     };
 
@@ -96,6 +66,5 @@ document.addEventListener("DOMContentLoaded", function(event) {
         var mill_audio = document.getElementsByTagName("audio")[0];
         mill_audio.pause();
         mill_audio.currentTime = 0;
-        // var audio = document.getElementById("countdown");
     };
 });
