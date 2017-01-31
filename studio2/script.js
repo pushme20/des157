@@ -91,9 +91,5 @@ document.addEventListener("DOMContentLoaded", function(event) {
         var removeClass = document.getElementById('regis-pic');
         removeClass.classList.remove("spinning-regis");
         // var audio = document.getElementById("countdown");
-
-
     };
-
-
-});;
+});
