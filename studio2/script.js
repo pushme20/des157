@@ -63,11 +63,17 @@ document.addEventListener("DOMContentLoaded", function(event) {
             var addClass = document.getElementById('regis-pic');
             addClass.classList.add("spinning-regis");
             inp1.classList.add("brown-color");
+            inp1.innerHTML = field1;
             inp2.classList.add("brown-color");
+            inp2.innerHTML = field2;
             inp3.classList.add("brown-color");
+            inp3.innerHTML = field3;
             inp4.classList.add("brown-color");
+            inp4.innerHTML = field4;
             inp5.classList.add("brown-color");
+            inp5.innerHTML = field5;
             inp6.classList.add("brown-color");
+            inp6.innerHTML = field6;
         }
     };
 
