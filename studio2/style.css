@@ -42,6 +42,10 @@ label {
     color: #8B1300;
 }
 
+p {
+    font-family: "Open Sans", sans-serif;
+}
+
 
 /* === CSS Backgrounds === */
 
@@ -123,13 +127,12 @@ input[type="submit"] {
 }
 
 .final-question {
-    margin-top: 30px;
     text-align: center;
 }
 
 form {
     margin-left: 154px;
-    margin-top: 60px;
+    margin-top: 20px;
 }
 
 .field-spacing {
