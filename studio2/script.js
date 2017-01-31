@@ -5,41 +5,20 @@ document.addEventListener("DOMContentLoaded", function(event) {
 
     // all other js here
 
-    document.madlib.onsubmit = processForm;
+    document.gameshow.onsubmit = processForm;
 
     function processForm() {
-        var question1 = document.madlib.q1.value;
-        var question2 = document.madlib.q2.value;
-        var question3 = document.madlib.q3.value;
-        var question4 = document.madlib.q4.value;
-        var question5 = document.madlib.q5.value;
-        var count = 0;
-        if (question1 == "Yesterday") {
-            count++;
+        var field1 = document.gameshow.field1.value;
+        var field2 = document.gameshow.field2.value;
+        var field3 = document.gameshow.field3.value;
+        var field4 = document.gameshow.field4.value;
+        var field5 = document.gameshow.field5.value;
+        var field6 = document.gameshow.field6.value;
 
+        if (field1 == "" && field2 == "" && field3 == "" && field4 == "" && field5 == "" && field6 == "") {
+            alert("If you would like to play, please fill out all fields of the form.");
 
-        }
-        if (question2 == "b") {
-            count++;
-
-        }
-        if (question3 == "c") {
-            count++;
-
-        }
-        if (question4 == "d") {
-            count++;
-
-        }
-        if (question5 == "e") {
-            count++;
-        }
-
-        if (count < 4) {
-            innerHTML
-            console.log("Sorry, looks like you're a Beetle!");
         }
         return false;
     }
-
 });
