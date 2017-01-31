@@ -38,6 +38,10 @@ label {
     font-size: 26px;
 }
 
+.brown-color {
+    color: #8B1300;
+}
+
 
 /* === CSS Backgrounds === */
 
@@ -261,4 +265,9 @@ td:hover {
     to {
         transform: rotate(359deg);
     }
+}
+
+
+}
+
 }
