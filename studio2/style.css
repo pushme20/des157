@@ -197,6 +197,13 @@ td {
 }
 
 
+/* === JS Manipulation === */
+
+#hide-regis {
+    visibility: hidden;
+}
+
+
 /* === CSS Extra === */
 
 a {
@@ -240,10 +247,10 @@ input[type="submit"]:hover {
 td:hover {
     background-color: #fff;
     color: #8B1300;
+    cursor: pointer;
 }
 
-
-/*#spinning-regis {
+.spinning-regis {
     animation: rotating 2s infinite linear;
 }
 
@@ -254,6 +261,4 @@ td:hover {
     to {
         transform: rotate(359deg);
     }
-}*/
-
-*/ */ /
+}
