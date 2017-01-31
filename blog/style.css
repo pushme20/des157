@@ -32,6 +32,10 @@ p {
     font-size: 1em;
 }
 
+.white {
+    color: #fff;
+}
+
 
 /* === CSS Backgrounds === */
 
@@ -91,6 +95,10 @@ h2 {
 
 .mar-bottom {
     margin-bottom: 40px;
+}
+
+.mar-top {
+    margin-top: 40px;
 }
 
 #padding-right {
@@ -165,7 +173,7 @@ a {
     text-decoration: none;
 }
 
-p a:hover {
+footer p a:hover {
     background-color: #fff;
     padding: 10px 40px;
     color: #522084;
