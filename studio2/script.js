@@ -47,6 +47,13 @@ document.addEventListener("DOMContentLoaded", function(event) {
         var field5 = document.gameshow.field5.value;
         var field6 = document.gameshow.field6.value;
 
+        var inp1 = document.getElementById("input1");
+        var inp2 = document.getElementById("input2");
+        var inp3 = document.getElementById("input3");
+        var inp4 = document.getElementById("input4");
+        var inp5 = document.getElementById("input5");
+        var inp6 = document.getElementById("input6");
+
         if (field1 == "" && field2 == "" && field3 == "" && field4 == "" && field5 == "" && field6 == "") {
             alert("If you would like to play, please fill out all fields of the form.");
         } else if (field1 == "" || field2 == "" || field3 == "" || field4 == "" || field5 == "" || field6 == "") {
@@ -55,6 +62,12 @@ document.addEventListener("DOMContentLoaded", function(event) {
             document.getElementById('hide-regis').style.visibility = "visible";
             var addClass = document.getElementById('regis-pic');
             addClass.classList.add("spinning-regis");
+            inp1.classList.add("brown-color");
+            inp2.classList.add("brown-color");
+            inp3.classList.add("brown-color");
+            inp4.classList.add("brown-color");
+            inp5.classList.add("brown-color");
+            inp6.classList.add("brown-color");
         }
     };
 
