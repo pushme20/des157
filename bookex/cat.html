@@ -44,18 +44,25 @@
         //include ready statement at beginning of script for safe DOM manipulation
         document.addEventListener("DOMContentLoaded", function(event) {
             console.log("DOM fully loaded and parsed");
+            //querySelector function used to obtain a specific element
             var cat = document.querySelector("#cat");
             var hat = document.querySelector("#hat");
             var angle = 0,
+                //time it witnessed before, helps with smooth animation
                 lastTime = null;
 
+            //function to animate the hat
             function animate(time) {
+                //if the previous time is nothing, calculate the angle and add on to it
                 if (lastTime != null)
                     angle += (time - lastTime) * 0.001;
-                lastTime = time;
+                lastTime = time; //reassign the previous time to the time parameter
+                // calculates vertical radius of the circle
                 hat.style.top = (Math.sin(angle) * 160) + "px";
+                //calculates horizontal radius of the circle
                 hat.style.left = (Math.cos(angle) * 200) + "px";
 
+                //function runs when browser is ready to animate screen
                 requestAnimationFrame(animate);
             }
             requestAnimationFrame(animate);
