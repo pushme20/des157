@@ -1,13 +1,49 @@
 @charset "UTF-8";
 
-/*@import url('https://fonts.googleapis.com/css?family=Neuton|Overlock:700');*/
-
-
 /* === CSS Reset === */
 
-* {
-    margin: 0px;
-    padding: 0px;
+
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+
+/* HTML5 display-role reset for older browsers */
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
 }
 
 
@@ -22,6 +58,9 @@ header h1 {
 
 .button-txt-color {
     color: #F4F1DE;
+    font-family: 'Overlock', cursive;
+    font-weight: 700;
+    font-size: 20px;
 }
 
 
@@ -31,7 +70,7 @@ header {
     background-color: #9D6381;
 }
 
-footer p {
+footer {
     background-color: #9D6381;
 }
 
@@ -39,15 +78,23 @@ footer p {
 /* === CSS Box Model === */
 
 header h1 {
-    margin: 0px 0px 0px 50px;
+    margin: 0px 0px 0px 70px;
     padding: 20px 0px 20px 0px;
 }
 
 .border-button {
-    padding: 10px 40px;
+    padding: 10px 20px;
     border-radius: 15px;
     margin-right: 15px;
-    background-color: #522084;
+    border: 2px solid #F4F1DE;
+}
+
+footer {
+    padding: 30px 0 20px 80px;
+}
+
+footer p {
+    padding-top: 10px;
 }
 
 
@@ -59,6 +106,29 @@ header h1 {
 
 
 /* === CSS Positioning  === */
+
+
+/*#wrapper {
+    min-height: 100%;
+    position: relative;
+}*/
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin: 0 0 100px 0;
+}
+
+footer {
+    width: 100%;
+    height: 40px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
 
 
 /* === CSS Helper Classes === */
@@ -95,10 +165,12 @@ a {
 }
 
 p a:hover {
-    background-color: #fff;
-    padding: 10px 40px;
-    color: #522084;
+    background-color: #F4F1DE;
+    padding: 10px 20px;
+    color: #9D6381;
     width: 300px;
-    border-radius: 20px;
+    border-radius: 15px;
     margin-right: 15px;
+    font-family: 'Overlock', cursive;
+    font-weight: 700;
 }
