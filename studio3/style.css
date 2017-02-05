@@ -107,12 +107,6 @@ footer p {
 
 /* === CSS Positioning  === */
 
-
-/*#wrapper {
-    min-height: 100%;
-    position: relative;
-}*/
-
 html {
     position: relative;
     min-height: 100%;
@@ -162,6 +156,10 @@ footer {
 
 a {
     text-decoration: none;
+}
+
+p a {
+    transition: 0.5s;
 }
 
 p a:hover {
