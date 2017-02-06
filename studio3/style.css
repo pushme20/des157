@@ -97,6 +97,10 @@ footer {
     padding: 30px 0 20px 80px;
 }
 
+img {
+    border-radius: 100%;
+}
+
 footer p {
     padding-top: 10px;
 }
@@ -199,6 +203,11 @@ a {
 
 p a {
     transition: 0.5s;
+}
+
+.first-img:hover {
+    cursor: crosshair;
+    background-image: image('badge.jpg');
 }
 
 p a:hover {
