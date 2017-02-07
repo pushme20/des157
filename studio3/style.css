@@ -94,19 +94,19 @@ header h1 {
 }
 
 footer {
-    padding: 30px 0 20px 80px;
+    padding: 20px 0 40px 0px;
 }
 
 .first-img {
     border-radius: 30%;
 }
 
-.second-img {
-    border-radius: 10%;
-}
-
 .first-img {
     border: 2px solid #FF0C64;
+}
+
+.second-img {
+    border-radius: 10%;
 }
 
 footer p {
@@ -200,6 +200,10 @@ footer {
 
 .float-right {
     float: right;
+}
+
+#align-w-title {
+    margin-left: 70px;
 }
 
 
