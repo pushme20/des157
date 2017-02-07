@@ -27,12 +27,15 @@ document.addEventListener("DOMContentLoaded", function(event) {
 
     first_img.addEventListener('click', function() {
         document.getElementById('msg1').style.visibility = "visible";
+        document.getElementById('msg2').style.visibility = "hidden";
     });
 
-    // second_img.addEventListener('click', function() {
-    //     document.getElementById('msg2').style.visibility = "visible";
-    // });
-    //
+
+    second_img.addEventListener('click', function() {
+        document.getElementById('msg1').style.visibility = "hidden";
+        document.getElementById('msg2').style.visibility = "visible";
+    });
+
     // third_img.addEventListener('click', function() {
     //     document.getElementById('msg1').style.visibility = "visible";
     // });
