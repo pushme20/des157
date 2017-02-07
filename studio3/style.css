@@ -102,7 +102,6 @@ footer {
     border: 3px solid #FF0C64;
 }
 
-
 #second-img {
     border-radius: 10%;
     border: 3px solid #4C3DFF;
@@ -132,7 +131,6 @@ footer p {
 .flex-container {
     display: flex;
     justify-content: center;
-
 }
 
 
@@ -229,6 +227,17 @@ footer {
 
 #align-w-title {
     margin-left: 70px;
+}
+
+figcaption {
+    font-family: 'Overlock', cursive;
+    color: #9D6381;
+    font-size: 30px;
+    margin: 10px;
+    position: absolute;
+    top: 200px;
+    left: 100px;
+    visibility: hidden;
 }
 
 
