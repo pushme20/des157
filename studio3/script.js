@@ -28,25 +28,46 @@ document.addEventListener("DOMContentLoaded", function(event) {
     first_img.addEventListener('click', function() {
         document.getElementById('msg1').style.visibility = "visible";
         document.getElementById('msg2').style.visibility = "hidden";
+        document.getElementById('msg3').style.visibility = "hidden";
+        document.getElementById('msg4').style.visibility = "hidden";
+        document.getElementById('msg5').style.visibility = "hidden";
     });
 
 
     second_img.addEventListener('click', function() {
-        document.getElementById('msg1').style.visibility = "hidden";
         document.getElementById('msg2').style.visibility = "visible";
+        document.getElementById('msg1').style.visibility = "hidden";
+        document.getElementById('msg3').style.visibility = "hidden";
+        document.getElementById('msg4').style.visibility = "hidden";
+        document.getElementById('msg5').style.visibility = "hidden";
+
     });
 
-    // third_img.addEventListener('click', function() {
-    //     document.getElementById('msg1').style.visibility = "visible";
-    // });
-    //
-    // fourth_img.addEventListener('click', function() {
-    //     document.getElementById('msg1').style.visibility = "visible";
-    // });
-    //
-    // fifth_img.addEventListener('click', function() {
-    //     document.getElementById('msg1').style.visibility = "visible";
-    // });
+    third_img.addEventListener('click', function() {
+        document.getElementById('msg3').style.visibility = "visible";
+        document.getElementById('msg1').style.visibility = "hidden";
+        document.getElementById('msg2').style.visibility = "hidden";
+        document.getElementById('msg4').style.visibility = "hidden";
+        document.getElementById('msg5').style.visibility = "hidden";
+
+    });
+
+    fourth_img.addEventListener('click', function() {
+        document.getElementById('msg4').style.visibility = "visible";
+        document.getElementById('msg1').style.visibility = "hidden";
+        document.getElementById('msg2').style.visibility = "hidden";
+        document.getElementById('msg3').style.visibility = "hidden";
+        document.getElementById('msg5').style.visibility = "hidden";
+    });
+
+    fifth_img.addEventListener('click', function() {
+        document.getElementById('msg5').style.visibility = "visible";
+        document.getElementById('msg1').style.visibility = "hidden";
+        document.getElementById('msg2').style.visibility = "hidden";
+        document.getElementById('msg3').style.visibility = "hidden";
+        document.getElementById('msg4').style.visibility = "hidden";
+
+    });
 
 
 
