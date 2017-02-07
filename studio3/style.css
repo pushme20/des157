@@ -97,16 +97,32 @@ footer {
     padding: 20px 0 40px 0px;
 }
 
-.first-img {
+#first-img {
     border-radius: 30%;
+    border: 3px solid #FF0C64;
 }
 
-.first-img {
-    border: 2px solid #FF0C64;
-}
 
-.second-img {
+#second-img {
     border-radius: 10%;
+    border: 3px solid #4C3DFF;
+}
+
+#third-img {
+    border-radius: 10%;
+    border: 3px solid #18FF4E;
+    margin-left: 60px;
+}
+
+#fourth-img {
+    border-radius: 10%;
+    border: 3px solid #F4FF4E;
+}
+
+#fifth-img {
+    border-radius: 10%;
+    border: 3px solid #000000;
+    margin-left: 80px;
 }
 
 footer p {
@@ -116,6 +132,7 @@ footer p {
 .flex-container {
     display: flex;
     justify-content: center;
+
 }
 
 
@@ -168,11 +185,11 @@ body {
 }
 
 #bottom-row {
-    margin: 10px 0 0 0;
+    margin: 90px 0 0 0;
 }
 
 main {
-    margin: 15px 0 0 0;
+    margin: 80px 0 0 0;
 }
 
 footer {
