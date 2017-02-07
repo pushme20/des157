@@ -36,6 +36,10 @@ blockquote, q {
     quotes: none;
 }
 
+h6 {
+    display: none;
+}
+
 blockquote:before, blockquote:after, q:before, q:after {
     content: '';
     content: none;
