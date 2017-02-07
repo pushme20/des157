@@ -9,263 +9,263 @@
 */
 
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    font: inherit;
-    vertical-align: baseline;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
 
 
 /* HTML5 display-role reset for older browsers */
 
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
-    display: block;
+  display: block;
 }
 
 body {
-    line-height: 1;
+  line-height: 1;
 }
 
 ol, ul {
-    list-style: none;
+  list-style: none;
 }
 
 blockquote, q {
-    quotes: none;
+  quotes: none;
 }
 
 h6 {
-    visibility: hidden;
+  visibility: hidden;
 }
 
 blockquote:before, blockquote:after, q:before, q:after {
-    content: '';
-    content: none;
+  content: '';
+  content: none;
 }
 
 table {
-    border-collapse: collapse;
-    border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
 
 /* === CSS Typography === */
 
 header h1 {
-    font-family: 'Overlock', cursive;
-    font-size: 50px;
-    font-weight: 700;
-    color: #F4F1DE;
+  font-family: 'Overlock', cursive;
+  font-size: 50px;
+  font-weight: 700;
+  color: #F4F1DE;
 }
 
 .button-txt-color {
-    color: #F4F1DE;
-    font-family: 'Overlock', cursive;
-    font-weight: 700;
-    font-size: 20px;
+  color: #F4F1DE;
+  font-family: 'Overlock', cursive;
+  font-weight: 700;
+  font-size: 20px;
 }
 
 
 /* === CSS Backgrounds === */
 
 header {
-    background-color: #9D6381;
+  background-color: #9D6381;
 }
 
 footer {
-    background-color: #9D6381;
+  background-color: #9D6381;
 }
 
 body {
-    background-color: #F4F1DE;
+  background-color: #F4F1DE;
 }
 
 
 /* === CSS Box Model === */
 
 header h1 {
-    margin: 0px 0px 0px 70px;
-    padding: 20px 0px 20px 0px;
+  margin: 0px 0px 0px 70px;
+  padding: 20px 0px 20px 0px;
 }
 
 .border-button {
-    padding: 10px 20px;
-    border-radius: 15px;
-    margin-right: 15px;
-    border: 2px solid #F4F1DE;
+  padding: 10px 20px;
+  border-radius: 15px;
+  margin-right: 15px;
+  border: 2px solid #F4F1DE;
 }
 
 footer {
-    padding: 20px 0 40px 0px;
+  padding: 20px 0 40px 0px;
 }
 
 #first-img {
-    border-radius: 30%;
-    border: 3px solid #FF0C64;
+  border-radius: 30%;
+  border: 3px solid #FF0C64;
 }
 
 #second-img {
-    border-radius: 10%;
-    border: 3px solid #4C3DFF;
+  border-radius: 10%;
+  border: 3px solid #4C3DFF;
 }
 
 #third-img {
-    border-radius: 10%;
-    border: 3px solid #18FF4E;
-    margin-left: 60px;
+  border-radius: 10%;
+  border: 3px solid #18FF4E;
+  margin-left: 60px;
 }
 
 #fourth-img {
-    border-radius: 10%;
-    border: 3px solid #F4FF4E;
+  border-radius: 10%;
+  border: 3px solid #F4FF4E;
 }
 
 #fifth-img {
-    border-radius: 10%;
-    border: 3px solid #000000;
-    margin-left: 80px;
+  border-radius: 10%;
+  border: 3px solid #000000;
+  margin-left: 80px;
 }
 
 footer p {
-    padding-top: 10px;
+  padding-top: 10px;
 }
 
 .flex-container {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 
 /* === CSS Grid === */
 
 .border-button {
-    width: 300px;
+  width: 300px;
 }
 
 .column {
-    float: left;
+  float: left;
 }
 
 .col-12 {
-    width: 100%;
+  width: 100%;
 }
 
 .col-9 {
-    width: 75%;
+  width: 75%;
 }
 
 .col-6 {
-    width: 50%;
+  width: 50%;
 }
 
 .col-4 {
-    width: 33.33%;
+  width: 33.33%;
 }
 
 .col-3 {
-    width: 25%;
+  width: 25%;
 }
 
 .row:after {
-    clear: both;
-    content: " ";
-    display: table;
+  clear: both;
+  content: " ";
+  display: table;
 }
 
 
 /* === CSS Positioning  === */
 
 html {
-    position: relative;
-    min-height: 100%;
+  position: relative;
+  min-height: 100%;
 }
 
 body {
-    margin: 0 0 100px 0;
+  margin: 0 0 100px 0;
 }
 
 #bottom-row {
-    margin: 90px 0 0 0;
+  margin: 90px 0 0 0;
 }
 
 main {
-    margin: 80px 0 0 0;
+  margin: 80px 0 0 0;
 }
 
 footer {
-    width: 100%;
-    height: 20px;
-    position: absolute;
-    bottom: 0;
-    left: 0;
+  width: 100%;
+  height: 20px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
 }
 
 
 /* === CSS Helper Classes === */
 
 .align-right {
-    text-align: right;
+  text-align: right;
 }
 
 .align-center {
-    text-align: center;
+  text-align: center;
 }
 
 .align-left {
-    text-align: left;
+  text-align: left;
 }
 
 .clear-left {
-    clear: left;
+  clear: left;
 }
 
 .float-left {
-    float: left;
+  float: left;
 }
 
 .float-right {
-    float: right;
+  float: right;
 }
 
 #align-w-title {
-    margin-left: 70px;
+  margin-left: 70px;
 }
 
 figcaption {
-    font-family: 'Overlock', cursive;
-    color: #9D6381;
-    font-size: 30px;
-    margin: 10px;
-    position: absolute;
-    top: 200px;
-    left: 100px;
-    visibility: hidden;
+  font-family: 'Overlock', cursive;
+  color: #9D6381;
+  font-size: 30px;
+  margin: 10px;
+  position: absolute;
+  top: 200px;
+  left: 100px;
+  visibility: hidden;
 }
 
 
 /* === CSS Extra === */
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 p a {
-    transition: 0.5s;
+  transition: 0.5s;
 }
 
 .first-img:hover {
-    cursor: crosshair;
+  cursor: crosshair;
 }
 
 p a:hover {
-    background-color: #F4F1DE;
-    padding: 10px 20px;
-    color: #9D6381;
-    width: 300px;
-    border-radius: 15px;
-    margin-right: 15px;
-    font-family: 'Overlock', cursive;
-    font-weight: 700;
+  background-color: #F4F1DE;
+  padding: 10px 20px;
+  color: #9D6381;
+  width: 300px;
+  border-radius: 15px;
+  margin-right: 15px;
+  font-family: 'Overlock', cursive;
+  font-weight: 700;
 }
