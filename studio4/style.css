@@ -1,1 +1,32 @@
 @charset "UTF-8";
+.button-txt-color {
+  color: #25648E;
+  font-family: 'Corben', cursive;
+  font-weight: 400;
+}
+
+.border-button {
+  padding: 10px 40px;
+  border-radius: 15px;
+  margin-right: 15px;
+  background-color: #FCFBF7;
+  border: 2px solid #25648E;
+}
+
+#padding-right {
+  padding-left: 35px;
+}
+
+a {
+  text-decoration: none;
+}
+
+p a:hover {
+  background-color: #25648E;
+  padding: 10px 40px;
+  color: #FCFBF7;
+  border-radius: 15px;
+  margin-right: 15px;
+  font-family: 'Corben', cursive;
+  font-weight: 400;
+}
