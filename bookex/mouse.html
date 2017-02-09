@@ -7,7 +7,7 @@
     <style>
         * {
             margin: 0px;
-            padding: 0px
+            padding: 0px;
         }
 
         body {
@@ -50,23 +50,40 @@
     <script>
         //include ready statement at beginning of script for safe DOM manipulation
         document.addEventListener("DOMContentLoaded", function(event) {
-            addEventListener("mousemove", function(event) {
-                var red = document.createElement("div");
-                var orange = document.createElement("div");
-                var yellow = document.createElement("div");
-                var green = document.createElement("div");
-                var blue = document.createElement("div");
-                var indigo = document.createElement("div");
-                var violet = document.createElement("div");
-                var trail = document.createElement("div");
-                trail.className = "trail";
-                trail.style.backgroundColor = "blue"
-                trail.style.width = "30px";
-                trail.style.height = "30px";
-                trail.style.left = (event.pageX - 4) + "px";
-                trail.style.top = (event.pageY - 4) + "px";
-                document.body.appendChild(trail);
-            });
+
+
+            //             addEventListener("mousemove", function(event) {
+            //                 var red = document.createElement("div");
+            //                 var orange = document.createElement("div");
+            //                 var yellow = document.createElement("div");
+            //                 var green = document.createElement("div");
+            //                 var blue = document.createElement("div");
+            //                 var indigo = document.createElement("div");
+            //                 var violet = document.createElement("div");
+            //                 var trail = document.createElement("div");
+            //
+            //                 trail.className = "trail";
+            //                 trail.style.backgroundColor = "yellow";
+            //                 trail.style.width = "30px";
+            //                 trail.style.height = "30px";
+            //                 trail.style.left = (event.pageX - 4) + "px";
+            //                 trail.style.top = (event.pageY - 4) + "px";
+            //                 document.body.appendChild(trail);
+            // });
+            var trailNum = ["red", "orange", "yellow", "green", "blue", "indigo", "violet"];
+            for (var i = 0; i < trailNum.length; i++) {
+                trailNum[i] = document.createElement("div");
+                addEventListener("mousemove", function(event) {
+                    trailNum[i].className = "trail";
+                    trailNum[i].style.backgroundColor = "yellow";
+                    trailNum[i].style.width = "30px";
+                    trailNum[i].style.height = "30px";
+                    trailNum[i].style.left = (event.pageX - 4) + "px";
+                    trailNum[i].style.top = (event.pageY - 4) + "px";
+                    document.body.appendChild(trailNum[i]);
+                });
+            }
+
         });
     </script>
 </body>
