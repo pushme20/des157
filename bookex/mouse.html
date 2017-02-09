@@ -51,6 +51,13 @@
         //include ready statement at beginning of script for safe DOM manipulation
         document.addEventListener("DOMContentLoaded", function(event) {
             addEventListener("mousemove", function(event) {
+                var red = document.createElement("div");
+                var orange = document.createElement("div");
+                var yellow = document.createElement("div");
+                var green = document.createElement("div");
+                var blue = document.createElement("div");
+                var indigo = document.createElement("div");
+                var violet = document.createElement("div");
                 var trail = document.createElement("div");
                 trail.className = "trail";
                 trail.style.backgroundColor = "blue"
