@@ -51,22 +51,38 @@ table {
 }
 
 
-/*my css*/
+/* === CSS Sticky Footer === */
 
 html {
   position: relative;
   min-height: 100%;
 }
 
-header h1 {
-  font-family: 'Corben', cursive;
-  font-size: 45px;
-  font-weight: 400;
-  color: #F4F1DE;
-}
-
 body {
   margin: 0 0 100px 0;
+  background-color: #F4F1DE;
+  ;
+}
+
+footer {
+  width: 100%;
+  height: 20px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+
+/* === CSS Backgrounds === */
+
+
+/* === CSS Typography === */
+
+header h1 {
+  font-family: 'Corben', cursive;
+  font-size: 60px;
+  font-weight: 400;
+  color: #F4F1DE;
 }
 
 #bottom-row {
@@ -77,10 +93,10 @@ header {
   background-color: #25648E;
 }
 
-
-/*main {
-  margin: 80px 0 0 0;
-}*/
+#bg-co {
+  background-color: red;
+  max-height: 100%;
+}
 
 .button-txt-color {
   color: #FCFBF7;
@@ -126,14 +142,6 @@ footer {
 
 footer p {
   padding-top: 10px;
-}
-
-footer {
-  width: 100%;
-  height: 20px;
-  position: absolute;
-  bottom: 0;
-  left: 0;
 }
 
 
@@ -211,4 +219,8 @@ p a:hover {
   margin-right: 15px;
   font-family: 'Corben', cursive;
   font-weight: 400;
+}
+
+p a {
+  transition: 0.5s;
 }
