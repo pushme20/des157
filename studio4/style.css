@@ -9,67 +9,67 @@
 */
 
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
 
 
 /* HTML5 display-role reset for older browsers */
 
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
-  display: block;
+    display: block;
 }
 
 body {
-  line-height: 1;
+    line-height: 1;
 }
 
 ol, ul {
-  list-style: none;
+    list-style: none;
 }
 
 blockquote, q {
-  quotes: none;
+    quotes: none;
 }
 
 h6 {
-  visibility: hidden;
+    visibility: hidden;
 }
 
 blockquote:before, blockquote:after, q:before, q:after {
-  content: '';
-  content: none;
+    content: '';
+    content: none;
 }
 
 table {
-  border-collapse: collapse;
-  border-spacing: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
 }
 
 
 /* === CSS Sticky Footer === */
 
 html {
-  position: relative;
-  min-height: 100%;
+    position: relative;
+    min-height: 100%;
 }
 
 body {
-  margin: 0 0 100px 0;
-  background-color: #F4F1DE;
-  ;
+    margin: 0 0 100px 0;
+    background-color: #F4F1DE;
+    ;
 }
 
 footer {
-  width: 100%;
-  height: 20px;
-  position: absolute;
-  bottom: 0;
-  left: 0;
+    width: 100%;
+    height: 20px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
 }
 
 
@@ -79,148 +79,168 @@ footer {
 /* === CSS Typography === */
 
 header h1 {
-  font-family: 'Corben', cursive;
-  font-size: 60px;
-  font-weight: 400;
-  color: #F4F1DE;
+    font-family: 'Corben', cursive;
+    font-size: 60px;
+    font-weight: 400;
+    color: #F4F1DE;
 }
 
 #bottom-row {
-  margin: 90px 0 0 0;
+    margin: 90px 0 0 0;
 }
 
 header {
-  background-color: #25648E;
+    background-color: #25648E;
 }
 
 #bg-co {
-  background-color: red;
-  max-height: 100%;
+    background-color: red;
+    max-height: 100%;
 }
 
 .button-txt-color {
-  color: #FCFBF7;
-  font-family: 'Corben', cursive;
-  font-weight: 400;
+    color: #FCFBF7;
+    font-family: 'Corben', cursive;
+    font-weight: 400;
 }
 
 .border-button {
-  padding: 10px 40px;
-  border-radius: 15px;
-  margin-right: 15px;
-  background-color: #25648E;
-  border: 2px solid #FCFBF7;
+    padding: 10px 40px;
+    border-radius: 15px;
+    margin-right: 15px;
+    background-color: #25648E;
+    border: 2px solid #FCFBF7;
 }
 
 footer p a:first-child {
-  margin-left: 100px;
+    margin-left: 100px;
 }
 
 footer p a:nth-child(2) {
-  margin-left: 15px;
+    margin-left: 15px;
 }
 
 #padding-right {
-  padding-left: 35px;
+    padding-left: 35px;
 }
 
 
 /* === CSS Box Model === */
 
 header h1 {
-  margin: 0px 0px 0px 70px;
-  padding: 20px 0px 20px 0px;
+    margin: 0px 0px 0px 70px;
+    padding: 20px 0px 20px 0px;
 }
 
 footer {
-  background-color: #25648E;
+    background-color: #25648E;
 }
 
 footer {
-  padding: 20px 0 40px 0px;
+    padding: 20px 0 40px 0px;
 }
 
 footer p {
-  padding-top: 10px;
+    padding-top: 10px;
 }
 
 
 /* === CSS Helper Classes === */
 
 .align-right {
-  text-align: right;
+    text-align: right;
 }
 
 .align-center {
-  text-align: center;
+    text-align: center;
 }
 
 .align-left {
-  text-align: left;
+    text-align: left;
 }
 
 .clear-left {
-  clear: left;
+    clear: left;
 }
 
 .float-left {
-  float: left;
+    float: left;
 }
 
 .float-right {
-  float: right;
+    float: right;
 }
 
 
 /* === CSS Grid === */
 
 .column {
-  float: left;
+    float: left;
 }
 
 .col-12 {
-  width: 100%;
+    width: 100%;
 }
 
 .col-9 {
-  width: 75%;
+    width: 75%;
 }
 
 .col-6 {
-  width: 50%;
+    width: 50%;
 }
 
 .col-4 {
-  width: 33.33%;
+    width: 33.33%;
 }
 
 .col-3 {
-  width: 25%;
+    width: 25%;
 }
 
 .row:after {
-  clear: both;
-  content: " ";
-  display: table;
+    clear: both;
+    content: " ";
+    display: table;
+}
+
+.cus-b {
+    background-color: #25648E;
+    border-radius: 15px;
+    color: #FCFBF7;
+    font-size: 34px;
+    display: inline-block;
+    padding: 20px;
+    font-family: 'Corben', cursive;
 }
 
 
 /* === CSS Extra === */
 
 a {
-  text-decoration: none;
+    text-decoration: none;
 }
 
 p a:hover {
-  background-color: #FCFBF7;
-  padding: 10px 40px;
-  color: #25648E;
-  border-radius: 15px;
-  margin-right: 15px;
-  font-family: 'Corben', cursive;
-  font-weight: 400;
+    background-color: #FCFBF7;
+    padding: 10px 40px;
+    color: #25648E;
+    border-radius: 15px;
+    margin-right: 15px;
+    font-family: 'Corben', cursive;
+    font-weight: 400;
 }
 
 p a {
-  transition: 0.5s;
+    transition: 0.5s;
+}
+
+p a:hover {
+    background-color: #FCFBF7;
+    padding: 10px 40px;
+    color: #25648E;
+    border-radius: 15px;
+    margin-right: 15px;
+    font-family: 'Corben', cursive;
+    font-weight: 400;
 }
