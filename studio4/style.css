@@ -253,3 +253,17 @@ p a:hover {
     font-family: 'Corben', cursive;
     cursor: pointer;
 }
+
+#hide-left {
+    visibility: hidden;
+}
+
+#hide-right {
+    visibility: hidden;
+}
+
+#hide-sound {
+    display: none;
+}
+
+#potential-id {}
