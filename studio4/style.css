@@ -262,16 +262,30 @@ p a:hover {
     cursor: pointer;
 }
 
+#hide-right {
+    visibility: hidden;
+}
+
+#hide-top {
+    visibility: hidden;
+}
+
 #hide-left {
     visibility: hidden;
 }
 
-#hide-right {
+#hide-bot {
     visibility: hidden;
 }
 
 #hide-sound {
     display: none;
+}
+
+.inf-sign {
+    /*height: 40px;*/
+    /*transform: scale(2);
+    t*/
 }
 
 #potential-id {}
