@@ -146,8 +146,16 @@ footer p a:nth-child(2) {
     border: 2px solid #FCFBF7;
 }
 
+.bot-mar-top {
+    margin-top: 180px;
+}
+
 .mar-top {
-    margin-top: 250px;
+    margin-top: 165px;
+}
+
+.sm-mar-top {
+    margin-top: 30px;
 }
 
 
