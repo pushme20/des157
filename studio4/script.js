@@ -5,10 +5,35 @@ document.addEventListener("DOMContentLoaded", function(event) {
     var me = document.getElementById('hide-left');
     var flag3 = document.getElementById('hide-right');
     var showControls = document.getElementById('hide-sound');
+    var easter = document.getElementById('click-easter');
 
     var Timer;
 
     flag1.addEventListener('click', playAudio);
+    flag1.addEventListener('mouseover', noteOn);
+    flag1.addEventListener('mouseout', noteOff);
+
+    flag3.addEventListener('click', easterEgg);
+
+    easter.addEventListener('dblclick', changeTo3);
+
+    function changeTo3() {
+        return easter.innerHTML = "3";
+    }
+
+    function noteOn() {
+        return flag3.style.visibility = 'visible';
+    }
+
+
+    function noteOff() {
+        return flag3.style.visibility = 'hidden';
+    }
+
+    function easterEgg() {
+
+        return flag3.style.visibility = 'visible';
+    }
 
     function playAudio() {
         var sound = document.getElementsByTagName("audio")[0];
