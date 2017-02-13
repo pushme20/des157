@@ -5,7 +5,12 @@ document.addEventListener("DOMContentLoaded", function(event) {
     var me = document.getElementById('hide-left');
     var flag3 = document.getElementById('hide-right');
     var showControls = document.getElementById('hide-sound');
-    var easter = document.getElementById('click-easter');
+
+    /*EASTER EGG INDICATORS*/
+    var right_easter = document.getElementById('left-easter');
+    var left_easter = document.getElementById('right-easter');
+    var top_easter = document.getElementById('top-easter');
+    var bot_easter = document.getElementById('bot-easter');
 
     var Timer;
 
@@ -15,10 +20,10 @@ document.addEventListener("DOMContentLoaded", function(event) {
 
     flag3.addEventListener('click', easterEgg);
 
-    easter.addEventListener('dblclick', changeTo3);
+    right_easter.addEventListener('dblclick', changeTo3);
 
     function changeTo3() {
-        return easter.innerHTML = "3";
+        return right_easter.innerHTML = "3";
     }
 
     function noteOn() {
