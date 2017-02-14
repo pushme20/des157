@@ -17,10 +17,6 @@ document.addEventListener("DOMContentLoaded", function(event) {
     var top_easter = document.getElementById('top-easter');
     var bot_easter = document.getElementById('bot-easter');
 
-
-    var tt1 = document.getElementById('tt1');
-    var tt2 = document.getElementById('tt2');
-    var tt3 = document.getElementById('tt3');
     // var showControls = document.getElementById('hide-sound');
 
     //FUNCTIONS PLAY BASED ON EVENTS (CENTER, RIGHT, TOP, LEFT, BOTTOM)
@@ -57,18 +53,24 @@ document.addEventListener("DOMContentLoaded", function(event) {
         Timer = setTimeout(changeTo3, 1000);
     });
 
+    top_button.addEventListener('mouseover', function() {
+        Timer = setTimeout(changeTo12, 1000);
+    });
+
+    left_button.addEventListener('mouseover', function() {
+        Timer = setTimeout(changeTo9, 1000);
+    });
+
+    bot_button.addEventListener('mouseover', function() {
+        Timer = setTimeout(changeTo6, 1000);
+    });
+
     // right_easter.addEventListener('mouseover', function() {
     //     clearTimeout(Timer);
     //     Timer = setTimeout(changeTo12, 1000);
     //
     // });
 
-    function showTT1() {
-        // console.log('showing msg');
-
-        tt1.style.opacity = 1;
-
-    }
 
     function changeTo3() {
         count++;
@@ -82,29 +84,33 @@ document.addEventListener("DOMContentLoaded", function(event) {
         count++;
         console.log(count);
         left_button.style.visibility = "visible";
-        return top_easter.innerHTML = "12";
+        return top_easter.innerHTML = "A hover is all that you need";
     }
 
     function changeTo9() {
         count++;
         console.log(count);
         bot_button.style.visibility = "visible";
-        return left_easter.innerHTML = "9";
+        return left_easter.innerHTML = "You must reach the 6...";
     }
 
     function changeTo6() {
         count++;
-        console.log(count);
-        changeToInf(count);
-        return bot_easter.innerHTML = "6";
+
+        count = count - 2;
+        if (count == 4) {
+            changeToInf(count);
+        }
+        return bot_easter.innerHTML = "^^^Please listen to the following audio^^^";
     }
 
 
     function changeToInf(count) {
-        if (count == 4) {
-            playAudio();
-            return center_button.innerHTML = "&infin;";
-        }
+
+
+        playAudio();
+        return center_button.innerHTML = "&infin;";
+
     }
 
     function noteOn() {
@@ -122,7 +128,6 @@ document.addEventListener("DOMContentLoaded", function(event) {
 
     function playAudio() {
         var sound = document.getElementsByTagName("audio")[0];
-        // sound.load();
         sound.play()
         setTimeout(playAskTime, 9.36 * 1000); //in 5 sec run fxn
         // setTimeout(playKnowingTime, 10 * 1000);
@@ -134,7 +139,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
 
         setTimeout(playAskTime5, 29.7 * 1000);
         setTimeout(playAskTime6, 37.2 * 1000);
-        // showControls.style.display = "inline-block";
+
     }
 
     function playAskTime() {
@@ -171,10 +176,5 @@ document.addEventListener("DOMContentLoaded", function(event) {
         var bod = document.getElementById('red');
         bod.style.backgroundColor = "cyan";
     }
-
-    // function playKnowingTime() {
-    //     var bod = document.getElementById('red');
-    //     bod.style.backgroundColor = "red";
-    // }
 
 });

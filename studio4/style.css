@@ -281,3 +281,7 @@ p a:hover {
 #hide-sound {
     display: none;
 }
+
+h2 {
+    visibility: hidden;
+}
