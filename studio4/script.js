@@ -1,8 +1,10 @@
 document.addEventListener("DOMContentLoaded", function(event) {
     console.log("DOM fully loaded and parsed");
+    //USED TO DOCUMENT DBLCLICK EVENTS
     var count = 0;
     var Timer;
 
+    /*MAIN BUTTONS*/
     var center_button = document.getElementById('center-button');
     var left_button = document.getElementById('hide-left');
     var right_button = document.getElementById('hide-right');
@@ -15,9 +17,9 @@ document.addEventListener("DOMContentLoaded", function(event) {
     var top_easter = document.getElementById('top-easter');
     var bot_easter = document.getElementById('bot-easter');
 
-    var showControls = document.getElementById('hide-sound');
+    // var showControls = document.getElementById('hide-sound');
 
-
+    //FUNCTIONS PLAY BASED ON EVENTS (CENTER, RIGHT, TOP, LEFT, BOTTOM)
     center_button.addEventListener('click', playAudio);
     center_button.addEventListener('mouseover', noteOn);
     center_button.addEventListener('mouseout', noteOff);
@@ -58,21 +60,20 @@ document.addEventListener("DOMContentLoaded", function(event) {
     function changeTo6() {
         count++;
         console.log(count);
+        changeToInf(count);
         return bot_easter.innerHTML = "6";
     }
 
-    if (count == 4) {
-        changeToInf();
-    }
 
-    function changeToInf() {
-        return center_button.innerHTML = "Hi";
+    function changeToInf(count) {
+        if (count == 4) {
+            return center_button.innerHTML = "&infin;";
+        }
     }
 
     function noteOn() {
         return right_button.style.visibility = 'visible';
     }
-
 
     function noteOff() {
         return right_button.style.visibility = 'hidden';
