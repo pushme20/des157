@@ -17,12 +17,16 @@ document.addEventListener("DOMContentLoaded", function(event) {
     var top_easter = document.getElementById('top-easter');
     var bot_easter = document.getElementById('bot-easter');
 
+
+    var tt1 = document.getElementById('tt1');
+    var tt2 = document.getElementById('tt2');
+    var tt3 = document.getElementById('tt3');
     // var showControls = document.getElementById('hide-sound');
 
     //FUNCTIONS PLAY BASED ON EVENTS (CENTER, RIGHT, TOP, LEFT, BOTTOM)
-    center_button.addEventListener('click', playAudio);
+    // center_button.addEventListener('click', playAudio);
     center_button.addEventListener('mouseover', noteOn);
-    center_button.addEventListener('mouseout', noteOff);
+    // center_button.addEventListener('mouseout', noteOff);
 
     right_button.addEventListener('click', showRightButton);
     right_easter.addEventListener('dblclick', changeTo3);
@@ -36,11 +40,42 @@ document.addEventListener("DOMContentLoaded", function(event) {
     bot_button.addEventListener('click', showRightButton);
     bot_easter.addEventListener('dblclick', changeTo6);
 
+
+    // tt1.addEventListener('mouseover', function() {
+    //     console.log('mouseover on eat');
+    //     tipTimer = setTimeout(showTT1, 1000);
+    // });
+    //
+    // tt1.addEventListener('mouseout', function() {
+    //     console.log('mouseout on eat');
+    //     clearTimeout(tipTimer);
+    //     tt1.style.opacity = 0;
+    // });
+    //
+
+    right_button.addEventListener('mouseover', function() {
+        Timer = setTimeout(changeTo3, 1000);
+    });
+
+    // right_easter.addEventListener('mouseover', function() {
+    //     clearTimeout(Timer);
+    //     Timer = setTimeout(changeTo12, 1000);
+    //
+    // });
+
+    function showTT1() {
+        // console.log('showing msg');
+
+        tt1.style.opacity = 1;
+
+    }
+
     function changeTo3() {
         count++;
         console.log(count);
         top_button.style.visibility = "visible";
-        return right_easter.innerHTML = "3";
+        tt1.style.transition = 'all 1s';
+        return right_easter.innerHTML = "The 12 will help you move forward...";
     }
 
     function changeTo12() {
@@ -67,6 +102,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
 
     function changeToInf(count) {
         if (count == 4) {
+            playAudio();
             return center_button.innerHTML = "&infin;";
         }
     }
