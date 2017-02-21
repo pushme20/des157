@@ -66,6 +66,10 @@ footer {
 
 /* === CSS Typography === */
 
+li, p, button, footer {
+    font-family: 'Sansita', sans-serif;
+}
+
 
 /* === CSS Backgrounds === */
 
@@ -73,43 +77,50 @@ body {
     background-color: #edf8ff;
 }
 
-#content-box {
-  background-color: #270722;
-  color: #edf8ff;
-  font-size: 50px;
-  margin-top: 132px;
-  padding-bottom:200px;
-  box-sizing: border-box;
+#content_box {
+    background-color: #270722;
+    color: #edf8ff;
+    font-size: 50px;
+    margin-top: 100px;
+    padding-bottom: 52px;
+}
+
+#txt_in_box {
+    /*margin-top:150px;*/
+    margin-top: 60px;
 }
 
 .content-button {
-  background-color: #edf8ff;
-  color: #270722;
-  padding:15px;
-  font-size: 25px;
+    background-color: #edf8ff;
+    color: #270722;
+    padding: 15px;
+    font-size: 25px;
+}
 
+#align_buttons {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
 }
-#align-buttons {
-  margin:8%;
-}
+
 #explore {
     background-color: #3185fc;
     color: #e4ffe5;
     text-transform: uppercase;
-    font-size: 30px;
+    font-size: 40px;
 }
 
 #about {
     background-color: #a1d542;
     color: #0e6045;
-    font-size: 30px;
+    font-size: 40px;
     text-transform: uppercase;
 }
 
 #help {
     background-color: #f7bd69;
     color: #63442a;
-    font-size: 30px;
+    font-size: 40px;
     text-transform: uppercase;
 }
 
@@ -117,7 +128,8 @@ body {
 /* === CSS Box Model === */
 
 footer {
-    margin-left: 62px;
+    /*margin-left: 62px;
+    box-sizing: border-box;*/
 }
 
 footer p {
@@ -140,15 +152,11 @@ small {}
 
 #logo {
     margin-top: 15px;
-
-}
-#txt-in-box {
-  /*margin-top:150px;*/
-  margin-top:230px;
+    margin-left: 90px;
 }
 
 nav {
-  margin-top:132px;
+    margin-top: 100px;
 }
 
 
@@ -228,6 +236,14 @@ a:hover {
     margin-right: 15px;
     background-color: #270722;
     border: 2px solid #270722;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+li:hover {
+    cursor: pointer;
 }
 
 li {
