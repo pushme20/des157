@@ -82,6 +82,16 @@ body {
   box-sizing: border-box;
 }
 
+.content-button {
+  background-color: #edf8ff;
+  color: #270722;
+  padding:15px;
+  font-size: 25px;
+
+}
+#align-buttons {
+  margin:8%;
+}
 #explore {
     background-color: #3185fc;
     color: #e4ffe5;
