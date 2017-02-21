@@ -73,6 +73,18 @@ body {
     background-color: #edf8ff;
 }
 
+#explore {
+    background-color: #3185fc;
+}
+
+#about {
+    background-color: #a1d542;
+}
+
+#help {
+    background-color: #f7bd69;
+}
+
 
 /* === CSS Box Model === */
 
@@ -162,6 +174,10 @@ small {}
     display: table;
 }
 
+ul {
+    width: 45%;
+}
+
 
 /* === CSS Extra === */
 
@@ -175,4 +191,9 @@ a:hover {
     margin-right: 15px;
     background-color: #270722;
     border: 2px solid #270722;
+}
+
+li {
+    list-style-type: none;
+    padding: 30px;
 }
