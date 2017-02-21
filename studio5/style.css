@@ -85,6 +85,10 @@ body {
     padding-bottom: 52px;
 }
 
+h4 {
+    visibility: hidden;
+}
+
 #txt_in_box {
     /*margin-top:150px;*/
     margin-top: 60px;
