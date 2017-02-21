@@ -73,6 +73,15 @@ body {
     background-color: #edf8ff;
 }
 
+#content-box {
+  background-color: #270722;
+  color: #edf8ff;
+  font-size: 50px;
+  margin-top: 132px;
+  padding-bottom:200px;
+  box-sizing: border-box;
+}
+
 #explore {
     background-color: #3185fc;
     color: #e4ffe5;
@@ -121,6 +130,15 @@ small {}
 
 #logo {
     margin-top: 15px;
+
+}
+#txt-in-box {
+  /*margin-top:150px;*/
+  margin-top:230px;
+}
+
+nav {
+  margin-top:132px;
 }
 
 
