@@ -75,14 +75,23 @@ body {
 
 #explore {
     background-color: #3185fc;
+    color: #e4ffe5;
+    text-transform: uppercase;
+    font-size: 30px;
 }
 
 #about {
     background-color: #a1d542;
+    color: #0e6045;
+    font-size: 30px;
+    text-transform: uppercase;
 }
 
 #help {
     background-color: #f7bd69;
+    color: #63442a;
+    font-size: 30px;
+    text-transform: uppercase;
 }
 
 
