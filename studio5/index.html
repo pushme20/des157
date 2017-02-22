@@ -1,8 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-ng-app="studio5App">
 
 <head>
     <meta charset="utf-8" />
+    <base href="/" />
     <title>Studio 5
     </title>
     <link href="https://fonts.googleapis.com/css?family=Sansita:400,400i,700,700i" rel="stylesheet">
@@ -14,12 +15,18 @@
 </head>
 
 <body>
-    <main>
+    <header data-ng-include="'header.html'">
+
+    </header>
+    <!-- <main data-ng-view>
+
+    </main> -->
+    <!-- <main>
         <p class="align-center">
             <img src="std5_logo.svg" width="180" height="180" id="logo" alt="std5_logo" title="Studio 5 logo" /></p>
         <div class="row">
             <section class="column col-6">
-                <h4>hide</h4>
+              <h4>hide</h4>
                 <nav>
                     <ul>
                         <li id="explore">
@@ -37,10 +44,10 @@
             </section>
 
             <section class="column col-6" id="content_box">
-                <h4>hide</h4>
+              <h4>hide</h4>
                 <p class="align-center" id="txt_in_box">What culture would you like to explore?</p>
                 <section id="align_buttons">
-                    <h4>hide</h4>
+                  <h4>hide</h4>
 
 
                     <button type="button" class="content-button">Search by Country</button>
@@ -59,7 +66,7 @@
         <p class="align-left">
             <small>&copy; Copyright 2017, MaiVennu</small>
         </p>
-    </footer>
+    </footer> -->
 </body>
 
 </html>
