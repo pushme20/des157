@@ -1,35 +1,72 @@
 var studio5App = angular.module('studio5App', ['ngRoute', 'ngAnimate']);
 
-studio5App.config(['$routeProvider', '$locationProvider', function($routeProvider, $locationProvider) {
+studio5App.controller('studio5AppController', function($scope) {
+    $scope.message = "hello";
+    $scope.talk = "eat";
+});
 
-    $locationProvider.html5Mode(true);
-
-    $routeProvider
-        // .when('/index', {
-        //     templateUrl: 'views/index.html',
-        //     controller: 'NinjaController'
-        // }) //giving home view a NinjaController grants it access to all data in controller that the scope object is utilizing
-        // .when('/contact', {
-        //     templateUrl: 'views/contact.html',
-        //     controller: 'ContactController'
-        // })
-        .when('/home', {
-            templateUrl: 'views/home.html',
-            controller: 'studio5AppController'
-        })
-    // .when('/directory', {
-    //     templateUrl: 'views/directory.html',
-    //     controller: 'NinjaController'
-    // }).otherwise({
-    //     redirectTo: '/home'
-    // });
-}]);
-
-
-
-studio5App.controller('ContactController', ['$scope', '$location', function($scope, $location) {
-    $scope.sendMessage = function() {
-        $location.path('contact-success'); //sends us to contact-success page
-
-    };
-}]);
+// studio5App.config(['$routeProvider', ])
+// '$locationProvider',
+// function($routeProvider, $locationProvider) {
+//
+//     // $locationProvider.html5Mode(true);
+//
+//     $routeProvider
+//         // .when('/index', {
+//         //     templateUrl: 'views/index.html',
+//         //     controller: 'NinjaController'
+//         // }) //giving home view a NinjaController grants it access to all data in controller that the scope object is utilizing
+//         // .when('/contact', {
+//         //     templateUrl: 'views/contact.html',
+//         //     controller: 'ContactController'
+//         // })
+//         .when('/studio5/index.html', {
+//             templateUrl: 'views/header.html',
+//             controller: 'studio5AppController'
+//         })
+//     // .when('/directory', {
+//     //     templateUrl: 'views/directory.html',
+//     //     controller: 'NinjaController'
+//     // }).otherwise({
+//     //     redirectTo: '/studio4'
+//     // });
+// }]);
+// studio5App.config(['$routeProvider', '$locationProvider', function($routeProvider, $locationProvider) {
+//
+//     $locationProvider.html5Mode(true);
+//
+//     $routeProvider
+//         // .when('/index', {
+//         //     templateUrl: 'views/index.html',
+//         //     controller: 'NinjaController'
+//         // }) //giving home view a NinjaController grants it access to all data in controller that the scope object is utilizing
+//         // .when('/contact', {
+//         //     templateUrl: 'views/contact.html',
+//         //     controller: 'ContactController'
+//         // })
+//         .when('/studio5/', {
+//             templateUrl: 'views/header.html',
+//             controller: 'studio5AppController'
+//         })
+//         .when('/directory', {
+//             templateUrl: 'views/directory.html',
+//             controller: 'NinjaController'
+//         }).otherwise({
+//             redirectTo: '/studio4'
+//         });
+//     // .when('/directory', {
+//     //     templateUrl: 'views/directory.html',
+//     //     controller: 'NinjaController'
+//     // }).otherwise({
+//     //     redirectTo: '/home'
+//     // });
+// }]);
+//
+//
+//
+// studio5App.controller('ContactController', ['$scope', '$location', function($scope, $location) {
+//     $scope.sendMessage = function() {
+//         $location.path('contact-success'); //sends us to contact-success page
+//
+//     };
+// }]);
