@@ -6,36 +6,222 @@
     <meta charset="utf-8" />
     <title>Moodboard</title>
     <style>
-        .row::after {
-            content: " ";
-            display: table;
-            clear: both;
+        /* http://meyerweb.com/eric/tools/css/reset/
+       v2.0 | 20110126
+       License: none (public domain)
+    */
+
+        html,
+        body,
+        div,
+        span,
+        applet,
+        object,
+        iframe,
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        p,
+        blockquote,
+        pre,
+        a,
+        abbr,
+        acronym,
+        address,
+        big,
+        cite,
+        code,
+        del,
+        dfn,
+        em,
+        img,
+        ins,
+        kbd,
+        q,
+        s,
+        samp,
+        small,
+        strike,
+        strong,
+        sub,
+        sup,
+        tt,
+        var,
+        b,
+        u,
+        i,
+        center,
+        dl,
+        dt,
+        dd,
+        ol,
+        ul,
+        li,
+        fieldset,
+        form,
+        label,
+        legend,
+        table,
+        caption,
+        tbody,
+        tfoot,
+        thead,
+        tr,
+        th,
+        td,
+        article,
+        aside,
+        canvas,
+        details,
+        embed,
+        figure,
+        figcaption,
+        footer,
+        header,
+        hgroup,
+        menu,
+        nav,
+        output,
+        ruby,
+        section,
+        summary,
+        time,
+        mark,
+        audio,
+        video {
+            margin: 0;
+            padding: 0;
+            border: 0;
+            font-size: 100%;
+            font: inherit;
+            vertical-align: baseline;
+        }
+        /* HTML5 display-role reset for older browsers */
+
+        article,
+        aside,
+        details,
+        figcaption,
+        figure,
+        footer,
+        header,
+        hgroup,
+        menu,
+        nav,
+        section {
+            display: block;
+        }
+
+        body {
+            line-height: 1;
+        }
+
+        ol,
+        ul {
+            list-style: none;
+        }
+
+        blockquote,
+        q {
+            quotes: none;
+        }
+
+        blockquote:before,
+        blockquote:after,
+        q:before,
+        q:after {
+            content: '';
+            content: none;
+        }
+
+        table {
+            border-collapse: collapse;
+            border-spacing: 0;
+        }
+        /*MY CSS*/
+
+        a {
+            color: aqua;
+            text-decoration: none;
+        }
+
+        body {
+            background-color: #000;
+            font-family: 'Arial', sans-serif;
+        }
+
+        figcaption {
+            /*font-weight: bold;*/
+            color: #fff;
+        }
+
+        footer p {
+            margin: 10px 0 0 37px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #fff;
+            font-size: 2em;
+            margin: 20px 0 20px 0;
+        }
+
+        h2 {
+            color: #ff0;
+            font-size: 1.5em;
+            margin-left: 20px;
+            margin-bottom: 15px;
+        }
+
+        h3 {
+            display: none;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            border: 1px solid h2;
         }
 
         .column {
             float: left;
         }
 
-        .col-6 {
-            width: 50%;
-        }
-
         .col-3 {
             width: 25%;
         }
 
-        img {
-            width: 100%;
-            height: auto;
+        .flex_me {
+            display: flex;
+            justify-content: center;
+        }
+
+        #festivals_row2 {
+            margin-top: 10px;
+        }
+
+        .row::after {
+            content: " ";
+            display: table;
+            clear: both;
         }
     </style>
 </head>
 
 <body>
+    <header>
+        <h1>Moodboard</h1>
+    </header>
     <main>
 
-        <div class="row">
-            <section class="column col-3">
+        <!-- CULTURAL FESTIVAL IMAGES BELOW-->
+        <div class="row ">
+            <h2>Cultural Festivals</h2>
+            <section class="column col-3 flex_me">
+                <h3>hide</h3>
                 <figure>
                     <img src="pongal_festival.jpg" width=300 height=300 alt="pongal festival" />
                     <figcaption>
@@ -45,7 +231,8 @@
                 </figure>
             </section>
 
-            <section class="column col-3">
+            <section class="column col-3 flex_me">
+                <h3>hide</h3>
                 <figure>
                     <img src="ramadan_kareem.jpg" width=300 height=300 alt="Ramadan Kareem" />
                     <figcaption>
@@ -55,7 +242,8 @@
                 </figure>
             </section>
 
-            <section class="column col-3">
+            <section class="column col-3 flex_me">
+                <h3>hide</h3>
                 <figure>
                     <img src="festa_junina.jpg" width=300 height=300 alt="Festa Junina Festival" />
                     <figcaption>
@@ -65,7 +253,8 @@
                 </figure>
             </section>
 
-            <section class="column col-3">
+            <section class="column col-3 flex_me">
+                <h3>hide</h3>
                 <figure>
                     <img src="holi_festival.jpg" width=300 height=300 alt="Holi Festival" />
                     <figcaption>
@@ -76,48 +265,133 @@
             </section>
         </div>
 
+        <div class="row" id="festivals_row2">
+            <section class="column col-3 flex_me">
+                <h3>hide</h3>
+                <figure>
+                    <img src="india_indep_day.jpg" width=300 height=300 alt="India Independence Day" />
+                    <figcaption>
+                        India Independence Day
+                        <a href="http://www.freepik.com/free-vector/india-independence-day-in-colors-background_900725.htm">Designed by Freepik</a>
+                    </figcaption>
+                </figure>
+            </section>
+
+            <section class="column col-3 flex_me">
+                <h3>hide</h3>
+                <figure>
+                    <img src="chinese_new_year.jpg" width=300 height=300 alt="Chinese New Year" />
+                    <figcaption>
+                        Chinese New Year
+                        <a href="http://www.freepik.com/free-vector/chinese-new-year-lanters-on-watercolor-background_830039.htm">Designed by Freepik</a>
+                    </figcaption>
+                </figure>
+            </section>
+
+            <section class="column col-3 flex_me">
+                <h3>hide</h3>
+                <figure>
+                    <img src="makar_sankranti.jpg" width=300 height=300 alt="Makar Sankranti" />
+                    <figcaption>
+                        Makar Sankranti
+                        <a href="http://www.freepik.com/free-vector/makar-sankranti-background_1013410.htm">Designed by Freepik</a>
+                    </figcaption>
+                </figure>
+            </section>
+
+            <section class="column col-3 flex_me">
+                <h3>hide</h3>
+                <figure>
+                    <img src="dia_de_los_muertos.jpg" width=300 height=300 alt="Dia de Los Muertos" />
+                    <figcaption>
+                        Dia de Los Muertos
+                        <a href="http://www.freepik.com/free-vector/day-of-the-dead-illustrations_811079.htm">Designed by Freepik</a>
+                    </figcaption>
+                </figure>
+            </section>
+        </div>
+
+
+        <hr />
+        <!-- WORLD ARCHITECTURE IMAGES BELOW-->
         <div class="row">
-            <section class="column col-3">
+            <h2>World Architecture</h2>
+            <section class="column col-3 flex_me">
+                <h3>hide</h3>
                 <figure>
-                    <img src="pongal_festival.jpg" width=300 height=300 alt="pongal festival" />
+                    <img src="great-torii-of-miyajima-1425480_640.jpg" width=452 height=300 alt="Great Torii of Miyajima" />
                     <figcaption>
-                        Pongal Festival
-                        <a href="http://www.freepik.com/free-vector/great-pongal-background-with-sugarcane-and-rice-in-flat-design_999744.htm">Designed by Freepik</a>
+                        Great Torii of Miyajima
+                        <a href="https://pixabay.com/en/great-torii-of-miyajima-symbol-1425480/">Visit Pixabay Link</a>
                     </figcaption>
                 </figure>
             </section>
 
-            <section class="column col-3">
+            <section class="column col-3 flex_me">
+                <h3>hide</h3>
                 <figure>
-                    <img src="pongal_festival.jpg" width=300 height=300 alt="pongal festival" />
+                    <img src="louvre-530058_640.jpg" width=451 height=300 alt="Louvre Glass Pyramid" />
                     <figcaption>
-                        Pongal Festival
-                        <a href="http://www.freepik.com/free-vector/great-pongal-background-with-sugarcane-and-rice-in-flat-design_999744.htm">Designed by Freepik</a>
+                        Louvre Glass Pyramid
+                        <a href="https://pixabay.com/en/louvre-glass-pyramid-paris-pyramid-530058/">Visit Pixabay Link</a>
                     </figcaption>
                 </figure>
             </section>
 
-            <section class="column col-3">
+            <section class="column col-3 flex_me">
+                <h3>hide</h3>
                 <figure>
-                    <img src="pongal_festival.jpg" width=300 height=300 alt="pongal festival" />
+                    <img src="sydney-363244_640.jpg" width=450 height=300 alt="Sydney Opera House" />
                     <figcaption>
-                        Pongal Festival
-                        <a href="http://www.freepik.com/free-vector/great-pongal-background-with-sugarcane-and-rice-in-flat-design_999744.htm">Designed by Freepik</a>
+                        Sydney Opera House
+                        <a href="https://pixabay.com/en/sydney-opera-house-australia-363244/">Visit Pixabay Link</a>
                     </figcaption>
                 </figure>
             </section>
 
-            <section class="column col-3">
+            <section class="column col-3 flex_me">
+                <h3>hide</h3>
                 <figure>
-                    <img src="pongal_festival.jpg" width=300 height=300 alt="pongal festival" />
+                    <img src="machu-picchu-1072063_640.jpg" width=400 height=300 alt="Machu Picchu" />
                     <figcaption>
-                        Pongal Festival
-                        <a href="http://www.freepik.com/free-vector/great-pongal-background-with-sugarcane-and-rice-in-flat-design_999744.htm">Designed by Freepik</a>
+                        Machu Picchu
+                        <a href="https://pixabay.com/en/machu-picchu-peru-ancient-1072063/">Visit Pixabay Link</a>
+                    </figcaption>
+                </figure>
+            </section>
+        </div>
+
+        <div class="row">
+            <section class="column col-3 flex_me">
+                <h3>hide</h3>
+                <figure>
+                    <img src="stone-chariot-278972_640.jpg" width=300 height=300 alt="Stone Chariot" />
+                    <figcaption>
+                        Stone Chariot
+                        <a href="https://pixabay.com/en/stone-chariot-hampi-278972/">Visit Pixabay Link</a>
+                    </figcaption>
+                </figure>
+            </section>
+
+            <section class="column col-3 flex_me">
+                <h3>hide</h3>
+                <figure>
+                    <img src="eisenach-1361451_640.jpg" width=449 height=300 alt="Eisenach Wartburg Castle" />
+                    <figcaption>
+                        Eisenach Wartburg Castle
+                        <a href="https://pixabay.com/en/eisenach-wartburg-castle-1361451/">Visit Pixabay Link</a>
                     </figcaption>
                 </figure>
             </section>
         </div>
     </main>
+
+    <footer class="clear-left align-center">
+        <p>
+
+            <a href="https://validator.w3.org/check?uri=referer" target="_blank">&nbsp;Valid HTML 5</a>
+            <a href="https://jigsaw.w3.org/css-validator/check/referer" target="_blank">Valid CSS</a></p>
+    </footer>
 </body>
 
 </html>
