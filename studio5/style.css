@@ -175,7 +175,7 @@ nav {
 }
 
 #menu {
-    margin-top: 50px;
+    margin-top: 80px;
 }
 
 #txt_in_box {
@@ -257,7 +257,7 @@ a {
     text-decoration: none;
 }
 
-a:hover {
+footer a:hover {
     padding: 10px 40px;
     color: #edf8ff;
     margin-right: 15px;
@@ -269,6 +269,41 @@ a:hover {
 button:hover {
     cursor: pointer;
 }
+
+#explore a:visited {
+    color: #e4ffe5
+}
+
+#discover a:visited {
+    color: #edf8ff;
+}
+
+#about a:visited {
+    color: #0e6045;
+}
+
+#help a:visited {
+    color: #63442a;
+}
+
+
+/*background-color: #3185fc;
+color: #e4ffe5;
+}
+
+#discover {
+background-color: #270722;
+color: #edf8ff;
+}
+
+#about {
+background-color: #a1d542;
+color: #0e6045;
+}
+
+#help {
+background-color: #f7bd69;
+color: #63442a;*/
 
 h4 {
     visibility: hidden;
