@@ -93,7 +93,8 @@ li, p, button, footer {
 /* === CSS Backgrounds === */
 
 body {
-    background-color: #edf8ff;
+    /*background-color: #edf8ff;*/
+    background-color: #e9ddff;
 }
 
 #content_box {
@@ -262,6 +263,7 @@ a:hover {
     margin-right: 15px;
     background-color: #270722;
     border: 2px solid #270722;
+    transition: 0.8s;
 }
 
 button:hover {
