@@ -306,25 +306,6 @@ button:hover {
     color: #63442a;
 }
 
-
-/*background-color: #3185fc;
-color: #e4ffe5;
-}
-
-#discover {
-background-color: #270722;
-color: #edf8ff;
-}
-
-#about {
-background-color: #a1d542;
-color: #0e6045;
-}
-
-#help {
-background-color: #f7bd69;
-color: #63442a;*/
-
 h4 {
     visibility: hidden;
 }
@@ -401,11 +382,4 @@ main.ng-enter.ng-enter-active {
 
 #menu h1.ng-enter.ng-enter-active {
     opacity: 1;
-}
-
-
-}
-
-}
-
 }
