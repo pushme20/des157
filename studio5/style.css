@@ -286,6 +286,22 @@ button:hover {
     color: #63442a;
 }
 
+#explore a:link {
+    color: #e4ffe5
+}
+
+#discover a:link {
+    color: #edf8ff;
+}
+
+#about a:link {
+    color: #0e6045;
+}
+
+#help a:link {
+    color: #63442a;
+}
+
 
 /*background-color: #3185fc;
 color: #e4ffe5;
@@ -316,4 +332,28 @@ li:hover {
 li {
     list-style-type: none;
     padding: 30px;
+}
+
+
+/* Angular Animate definitions */
+
+main.ng-enter {
+    transition: 0.5s linear all;
+    opacity: 0;
+}
+
+main.ng-enter.ng-enter-active {
+    opacity: 1;
+}
+
+
+/*transition effect when you come to homepage*/
+
+#menu h1.ng-enter {
+    transition: 0.5s linear all;
+    opacity: 0;
+}
+
+#menu h1.ng-enter.ng-enter-active {
+    opacity: 1;
 }
