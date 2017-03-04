@@ -11,8 +11,20 @@ app.config(['$routeProvider', function($routeProvider) {
         .when('/home', {
             templateUrl: 'views/home.html'
         })
-        .when('/directory', {
-            templateUrl: 'views/directory.html',
+        .when('/explore', {
+            templateUrl: 'views/explore.html',
+            controller: 'appController'
+        })
+        .when('/discover', {
+            templateUrl: 'views/discover.html',
+            controller: 'appController'
+        })
+        .when('/about', {
+            templateUrl: 'views/about.html',
+            controller: 'appController'
+        })
+        .when('/help', {
+            templateUrl: 'views/help.html',
             controller: 'appController'
         })
         .otherwise({
