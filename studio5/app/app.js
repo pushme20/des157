@@ -1,6 +1,6 @@
-var app = angular.module('studio5App', ['ngRoute']);
+var app = angular.module('app', ['ngRoute']);
 
-studio5App.controller('studio5AppController', function($scope) {
+app.controller('appController', function($scope) {
     $scope.message = "hello";
     $scope.talk = "eat";
 });
