@@ -1,10 +1,25 @@
-var studio5App = angular.module('studio5App', ['ngRoute', 'ngAnimate']);
+var app = angular.module('studio5App', ['ngRoute']);
 
 studio5App.controller('studio5AppController', function($scope) {
     $scope.message = "hello";
     $scope.talk = "eat";
 });
 
+
+app.config(['$routeProvider', function($routeProvider) {
+    $routeProvider
+        .when('/home', {
+            templateUrl: 'views/home.html'
+        })
+        .when('/directory', {
+            templateUrl: 'views/directory.html',
+            controller: 'appController'
+        })
+        .otherwise({
+            redirectTo: '/home'
+        });
+
+}]);
 // studio5App.config(['$routeProvider', ])
 // '$locationProvider',
 // function($routeProvider, $locationProvider) {
