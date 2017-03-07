@@ -9,21 +9,24 @@
     <section id="explore-form" class="column col-6">
 
 
-        <h2>Search a Culture</h2>
-        <form>
-            Type the language you are looking for:
-            <input type="text" />
-        </form>
+        <h2>Search a Culture</h2> Start with a continent:
+        <input type="text" data-ng-model="search" />
+        <ul>
+            <li data-ng-repeat="continent in continents | orderBy: 'name' | filter: search">
+                {{continent.name}}
+            </li>
+        </ul>
+
     </section>
 
     <section class="column col-6">
 
 
         <h2>Google Maps</h2>
-        <section="g-maps-box">
+        <!-- <section="g-maps-box">
 
+    </section> -->
     </section>
-</section>
 </section>
 
 <footer class="clear-left">
