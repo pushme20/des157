@@ -10,18 +10,22 @@
 
 
         <h2>Search a Culture</h2>
-        <form data-ng-submit="sendMessage()" novalidate>
+        <form name="exploreForm" data-ng-submit="sendMessage()" novalidate>
 
 
 
             <label for="explore-field">Start with a continent:</label>
-            <input type="text" id="explore-field1" data-ng-model="search" />
+            <input type="text" id="explore-field1" data-ng-model="search" data-ng-required="true" />
+
+            <div data-ng-show="exploreForm.name.$touched && exploreForm.name.$invalid">
+                <small style="color: white; display: block; text-align: center;">Enter a continent</small>
+            </div>
             <ul>
 
                 <li data-ng-repeat="continent in continents | orderBy: 'name' | filter: search" style="display: inline-block" class="col-3"> {{continent.name}}
                 </li>
             </ul>
-            <input id="submit-button" type="submit" />
+            <input id="submit-button" type="submit" data-ng-disabled="exploreForm.$invalid" />
         </form>
     </section>
 
