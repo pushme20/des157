@@ -9,11 +9,13 @@
     <section id="explore-form" class="column col-6">
 
 
-        <h2>Search a Culture</h2> Start with a continent:
-        <input type="text" data-ng-model="search" />
+        <h2>Search a Culture</h2>
+
+        <label for="explore-field">Start with a continent:</label>
+        <input type="text" id="explore-field1" data-ng-model="search" />
         <ul>
-            <li data-ng-repeat="continent in continents | orderBy: 'name' | filter: search">
-                {{continent.name}}
+
+            <li data-ng-repeat="continent in continents | orderBy: 'name' | filter: search" style="display: inline-block" class="col-3"> {{continent.name}}
             </li>
         </ul>
 

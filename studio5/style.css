@@ -85,6 +85,11 @@ footer {
     cursor: pointer;
 }
 
+.content label {
+    font-size: 1em;
+    font-family: 'Sansita', sans-serif;
+}
+
 li, p, button, footer {
     font-family: 'Sansita', sans-serif;
 }
@@ -164,6 +169,14 @@ nav {
 
 .button-txt-color {
     color: #270722;
+}
+
+.content label {
+    margin: 20px 0 0 30px;
+}
+
+.content input {
+    margin: 40px 0 0 20px;
 }
 
 #logo {
