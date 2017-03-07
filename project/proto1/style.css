@@ -53,6 +53,27 @@ table {
   text-align: center;
 }
 
+.align-right {
+  text-align: right;
+  margin-right: 40px;
+}
+
+#explore-title {
+  font-size: 3em;
+}
+
+#discover-title {
+  font-size: 3em;
+}
+
+#about-title {
+  font-size: 3em;
+}
+
+#help-title {
+  font-size: 3em;
+}
+
 .mar-top-lg {
   margin-top: 100px;
   display: block;
