@@ -10,15 +10,19 @@
 
 
         <h2>Search a Culture</h2>
+        <form data-ng-submit="sendMessage()" novalidate>
 
-        <label for="explore-field">Start with a continent:</label>
-        <input type="text" id="explore-field1" data-ng-model="search" />
-        <ul>
 
-            <li data-ng-repeat="continent in continents | orderBy: 'name' | filter: search" style="display: inline-block" class="col-3"> {{continent.name}}
-            </li>
-        </ul>
 
+            <label for="explore-field">Start with a continent:</label>
+            <input type="text" id="explore-field1" data-ng-model="search" />
+            <ul>
+
+                <li data-ng-repeat="continent in continents | orderBy: 'name' | filter: search" style="display: inline-block" class="col-3"> {{continent.name}}
+                </li>
+            </ul>
+            <input id="submit-button" type="submit" />
+        </form>
     </section>
 
     <section class="column col-6">

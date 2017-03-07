@@ -175,8 +175,12 @@ nav {
     margin: 20px 0 0 30px;
 }
 
-.content input {
+#explore-field1 {
     margin: 40px 0 0 20px;
+}
+
+#submit-button {
+    margin-left: 28px;
 }
 
 #logo {
@@ -357,8 +361,8 @@ li {
 }
 
 .content form {
-    text-align: center;
-    margin-top: 25px;
+    /*text-align: center;*/
+    /*margin-top: 25px;*/
 }
 
 .content {
