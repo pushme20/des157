@@ -49,7 +49,7 @@ h1 {
 
 p a {
     color: #522084;
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 
@@ -189,5 +189,9 @@ footer p a:hover {
 }
 
 p a:hover {
+    color: #fff;
+}
+
+figcaption a:hover {
     color: #fff;
 }
