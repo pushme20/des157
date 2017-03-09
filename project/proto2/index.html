@@ -6,11 +6,15 @@
     <meta charset="utf-8" />
     <title>Prototype 1</title>
     <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.1/angular.min.js' type="text/javascript"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.1/angular-route.min.js' type="text/javascript"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.1/angular-animate.min.js"></script>
+    <script src="app/app.js" type="text/javascript"></script>
 </head>
 
 <body>
-    <main>
-        <p class="align-center">
+    <main data-ng-view>
+        <!-- <p class="align-center">
             <img src="std5_logo.png" width="175" height=175 class="mar-top-sm" alt="Final Project logo" />
         </p>
 
@@ -23,7 +27,7 @@
             <button onclick="location.href='about.html'" type="button">About</button>
             <br />
             <button onclick="location.href='help.html'" type="button">Help</button>
-        </section>
+        </section> -->
     </main>
 
     <footer>
