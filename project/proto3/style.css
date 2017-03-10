@@ -349,10 +349,38 @@ li {
     color: #e4ffe5;
 }
 
+#help-page {
+    font-family: 'Sansita', sans-serif;
+    font-size: 3.4em;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: #f7bd69;
+    color: #63442a;
+}
+
+#help-page {
+    padding: 0.2em;
+    width: 3in;
+    transition: width 1.3s;
+}
+
 #explore-page {
     padding: 0.2em;
     width: 3in;
     transition: width 1.3s;
+}
+
+#help-content {
+    margin-top: 25px;
+    background-color: #f7bd69;
+    height: 400px;
+}
+
+#help-content h2 {
+    margin-top: 10px;
+    color: #63442a;
+    font-family: 'Sansita', sans-serif;
+    font-size: 2.5em;
 }
 
 .content h2 {
