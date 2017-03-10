@@ -359,9 +359,10 @@ li {
 }
 
 #help-page {
-    padding: 0.2em;
-    width: 3in;
+    padding: 0.2em 0.2em 0.2em 0.2em;
+    width: 2in;
     transition: width 1.3s;
+    margin-left: 49px;
 }
 
 #explore-page {
@@ -377,10 +378,12 @@ li {
 }
 
 #help-content h2 {
-    margin-top: 10px;
+    margin-top: 30px;
+    margin-left: 105px;
     color: #63442a;
     font-family: 'Sansita', sans-serif;
-    font-size: 2.5em;
+    font-size: 2.3em;
+    line-height: 240%;
 }
 
 .content h2 {
@@ -427,4 +430,14 @@ main.ng-enter.ng-enter-active {
 
 #menu h1.ng-enter.ng-enter-active {
     opacity: 1;
+}
+
+#vertical-line {
+    width: 1px;
+    /* Line width */
+    background-color: black;
+    /* Line color */
+    height: 80%;
+    margin-top: 40px;
+    float: left;
 }
