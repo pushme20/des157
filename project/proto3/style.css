@@ -447,4 +447,9 @@ main.ng-enter.ng-enter-active {
     height: 80%;
     margin-top: 40px;
     float: left;
+    margin-left: 400px;
+}
+
+#answers {
+    margin-left: 300px;
 }
