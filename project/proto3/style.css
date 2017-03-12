@@ -384,6 +384,13 @@ li {
     font-family: 'Sansita', sans-serif;
     font-size: 2.3em;
     line-height: 240%;
+    width: 4in;
+}
+
+#help-content h2:hover {
+    color: #ffffff;
+    cursor: pointer;
+    transition: 0.7s;
 }
 
 .content h2 {
@@ -433,9 +440,9 @@ main.ng-enter.ng-enter-active {
 }
 
 #vertical-line {
-    width: 1px;
+    width: 3px;
     /* Line width */
-    background-color: black;
+    background-color: #63442a;
     /* Line color */
     height: 80%;
     margin-top: 40px;
