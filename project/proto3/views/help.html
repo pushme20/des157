@@ -1,3 +1,16 @@
+<!-- <!doctype html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Help</title>
+    <script src="../script.js" type="text/javascript"></script>
+</head>
+
+<body> -->
+
+
 <p class="align-center logo-right">
     <a href="index.html#!/home"><img src="std5_logo.png" width="100" height="100" id="logo" alt="std5_logo" title="Studio 5 logo" /></a>
 </p>
@@ -9,8 +22,8 @@
 
 <section id="help-content">
     <section class="column col-3">
-        <h2>Why use this site?</h2>
-        <h2>How do I start?</h2>
+        <h2 data-ng-click="showMe=true">Why use this site?</h2>
+        <h2 data-ng-click="showThis=true">How do I start?</h2>
         <h2>How do I leave feedback?</h2>
     </section>
 
@@ -18,20 +31,26 @@
 
     </div>
     <section class="column" id="answers">
-        <div id="handle">Fade</div>
-        <div id="slideSource">First Fade</div>
+        <div id="handle">
+            Fade
+            <p data-ng-show="showMe">
+                First Fade
+            </p>
+        </div>
         <br>
-        <div id="handle2">Fade2</div>
-        <div id="slideSource2">Second Fade</div>
+        <div id="handle2">Fade2
+            <p data-ng-show="showThis" data-ng-hide="showMe">Second Fade</p>
+        </div>
         <br>
         <div id="handle3">Fade3</div>
-        <div id="slideSource3">Third fade</div>
+        <div id="slideSource3" data-ng-show="showToggle" data-ng-hide="hideToggle">Third fade</div>
 
 
     </section>
 
 
 </section>
+
 
 <footer class="clear-left">
 
@@ -43,3 +62,6 @@
         <small>&copy; Copyright 2017, CultureSmooth</small>
     </p>
 </footer>
+<!-- </body>
+
+</html> -->

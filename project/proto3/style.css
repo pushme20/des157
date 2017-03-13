@@ -453,3 +453,68 @@ main.ng-enter.ng-enter-active {
 #answers {
     margin-left: 300px;
 }
+
+
+/*fade in and out options for JS */
+
+
+/*#handle {
+    color: white;
+}
+
+#slideSource {
+    color: white;
+}
+
+div #slideSource {
+    opacity: 1;
+    transition: opacity 1s;
+}
+
+div #slideSource.fade {
+    opacity: 0;
+}
+
+#handle2 {
+    color: white;
+}
+
+#slideSource2 {
+    color: white;
+}
+
+div #slideSource2 {
+    opacity: 1;
+    transition: opacity 1s;
+}
+
+div #slideSource2.fade {
+    opacity: 0;
+}
+
+#handle3 {
+    color: white;
+}
+
+#slideSource3 {
+    color: white;
+}
+
+div #slideSource3 {
+    opacity: 1;
+    transition: opacity 1s;
+}
+
+div#slideSource3.fade {
+    opacity: 0;
+}*/
+
+
+/*#answers.ng-hide-remove {
+    transition: 2s linear all;
+    opacity: 0;
+}
+
+#answers.ng-hide-remove.ng-hide-remove-active {
+    opacity: 1;
+}*/
