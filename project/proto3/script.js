@@ -40,9 +40,30 @@ document.addEventListener("DOMContentLoaded", function(event) {
     //
     //     content_box.style.visibility = "hidden";
     // }
-    // 
+    //
     // function showUpHelp() {
     //     help.innerHTML = "Help&nbsp;&nbsp;&nbsp;&nbsp;&#9654";
     //     content_box.style.visibility = "visible";
+    // }
+
+    // var slideSource = document.getElementById('slideSource');
+    //
+    // // document.getElementById('handle').onclick = function() {
+    // //     slideSource.classList.toggle('fade');
+    // // }
+    // document.addEventListener('click', function() {
+    //     slideSource.classList.toggle('fade');
+    // });
+    //
+    // var slideSource2 = document.getElementById('slideSource2');
+    //
+    // document.getElementById('handle2').onclick = function() {
+    //     slideSource2.classList.toggle('fade');
+    // }
+    //
+    // var slideSource3 = document.getElementById('slideSource3');
+    // 
+    // document.getElementById('handle3').onclick = function() {
+    //     slideSource3.classList.toggle('fade');
     // }
 });
