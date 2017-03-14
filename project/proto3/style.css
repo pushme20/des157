@@ -373,10 +373,19 @@ li {
     border-radius: 15px;
     width: 80%;
     margin: auto;
+    position: absolute;
+    top: 260px;
+    right: 130px;
 }
 
 #inner-about-content p {
     font-size: 2em;
+}
+
+#start_message {
+    font-size: 20px;
+    text-align: left;
+    margin-left: 40px;
 }
 
 #about-page {
@@ -402,6 +411,10 @@ li {
     margin-top: 25px;
     background-color: #a1d542;
     height: 400px;
+    /*padding-top: 95px;*/
+    /*position: absolute;
+    top: 50px;
+    right: 50px;*/
 }
 
 #help-content h2 {
