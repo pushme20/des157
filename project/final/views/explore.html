@@ -1,0 +1,51 @@
+<p class="align-center logo-right">
+    <a href="index.html#!/home"><img src="std5_logo.png" width="100" height="100" id="logo" alt="std5_logo" title="Studio 5 logo" /></a>
+</p>
+
+
+<h1 id="explore-page">Explore</h1>
+
+<section class="content">
+    <section id="explore-form" class="column col-6">
+
+
+        <h2>Search a Culture</h2>
+        <form name="exploreForm" data-ng-submit="sendMessage()" novalidate>
+
+
+
+            <label for="explore-field">Start with a continent:</label>
+            <input type="text" id="explore-field1" data-ng-model="search" data-ng-required="true" />
+
+            <div data-ng-show="exploreForm.name.$touched && exploreForm.name.$invalid">
+                <small style="color: white; display: block; text-align: center;">Enter a continent</small>
+            </div>
+            <ul>
+
+                <li data-ng-repeat="continent in continents | orderBy: 'name' | filter: search" style="display: inline-block" class="col-3"> {{continent.name}}
+                </li>
+            </ul>
+            <input id="submit-button" type="submit" data-ng-disabled="exploreForm.$invalid" />
+        </form>
+    </section>
+
+    <section class="column col-6">
+
+
+        <h2>Google Maps</h2>
+        <!-- <section="g-maps-box">
+
+    </section> -->
+    </section>
+</section>
+
+<footer class="clear-left">
+
+    <a href="https://validator.w3.org/check?uri=referer " class="border-button button-txt-color ">&nbsp;Valid HTML 5</a>
+    <a href="https://jigsaw.w3.org/css-validator/check/referer " class="border-button button-txt-color">Valid CSS</a>
+
+
+    <p class="align-left">
+        <small>&copy; Copyright 2017, CultureSmooth</small>
+    </p>
+</footer>
