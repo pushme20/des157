@@ -365,6 +365,36 @@ li {
     margin-left: 49px;
 }
 
+#about-page {
+    font-family: 'Sansita', sans-serif;
+    font-size: 3.4em;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: #a1d542;
+    color: #0e6045;
+}
+
+#inner-about-content {
+    padding: 1em;
+    background-color: #0e6045;
+    color: #a1d542;
+    line-height: 55.2pt;
+    border-radius: 15px;
+    width: 80%;
+    margin: auto;
+}
+
+#inner-about-content p {
+    font-size: 2em;
+}
+
+#about-page {
+    padding: 0.2em 0.2em 0.2em 0.2em;
+    width: 2in;
+    transition: width 1.3s;
+    margin-left: 49px;
+}
+
 #explore-page {
     padding: 0.2em;
     width: 3in;
@@ -374,6 +404,12 @@ li {
 #help-content {
     margin-top: 25px;
     background-color: #f7bd69;
+    height: 400px;
+}
+
+#about-content {
+    margin-top: 25px;
+    background-color: #a1d542;
     height: 400px;
 }
 
