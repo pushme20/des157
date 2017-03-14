@@ -1,4 +1,4 @@
-var app = angular.module('app', ['ngRoute', 'ngAnimate']);
+var app = angular.module('app', ['ngRoute', 'ngAnimate', 'angularCSS']);
 
 // app.controller('appController', function($scope) {
 //     $scope.message = "hello";
@@ -22,7 +22,8 @@ app.config(['$routeProvider', '$locationProvider', function($routeProvider, $loc
         })
         .when('/about', {
             templateUrl: 'views/about.html',
-            controller: 'appController'
+            controller: 'appController',
+            css: 'css/about.css'
         })
         .when('/help', {
             templateUrl: 'views/help.html',
