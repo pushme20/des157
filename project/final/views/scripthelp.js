@@ -1,8 +1,8 @@
 document.addEventListener("DOMContentLoaded", function(event) {
     console.log("DOM fully loaded and parsed");
 
-    // var slideSource = document.getElementById('slideSource');
-    //
+    
+
     // document.getElementById('handle').onclick = function(){
     //     slideSource.classList.toggle('fade');
     // }
