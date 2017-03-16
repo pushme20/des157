@@ -514,6 +514,15 @@ div #slideSource.fade {
   opacity: 0;
 }
 
+.fade_in_out {
+  transition: 0.7s;
+  opacity: 1;
+}
+
+.fade_in_out.ng-hide {
+  opacity: 0;
+}
+
 
 /*#answers.ng-hide-remove {
     transition: 2s linear all;

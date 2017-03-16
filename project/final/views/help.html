@@ -22,17 +22,17 @@
 
 <section id="help-content">
     <section class="column col-3">
-        <h2 data-ng-click="showMe=true">Why use this site?</h2>
-        <h2 data-ng-click="showThis=true">How do I start?</h2>
+        <h2 data-ng-click="showTxt = !showTxt">Why use this site?</h2>
+        <h2>How do I start?</h2>
         <h2>How do I leave feedback?</h2>
     </section>
 
     <div id="vertical-line" class="column col-3">
 
     </div>
-<script src="scripthelp.js" type="text/javascript"></script>
-    <div id="handle">Fade</div>
-    <div id="slideSource">First Fade</div>
+<!-- <script src="scripthelp.js" type="text/javascript"></script> -->
+    <div >Fade</div>
+    <div id="slideSource" data-ng-show="showTxt" class="fade_in_out">First Fade</div>
     <!-- <section class="column" id="answers">
       <div id="handle">
 
