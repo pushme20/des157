@@ -149,34 +149,37 @@
             margin-top: 30px;
         }
 
-
         li {
-          list-style-type: disc;
-          line-height: 125%;
+            list-style-type: disc;
+            line-height: 125%;
+        }
+
+        footer {
+            margin-bottom: 20px;
         }
 
         img {
             font-size: 1em;
             font-weight: bold;
-
         }
 
-
-        .mar_left{
-          margin-left: 60px;
+        .mar_left {
+            margin-left: 60px;
         }
 
         .mar_top {
-          margin-top: 20px;
-        }
-        h2 {
-          font-size: 1em;
-          font-weight: bold;
+            margin-top: 20px;
         }
 
+        h2 {
+            font-size: 1.4em;
+            font-weight: bold;
+            margin-top: 30px;
+        }
 
         a {
             text-decoration: none;
+            font-weight: bold;
         }
 
         a:link {
@@ -188,63 +191,88 @@
         }
 
         .p_width {
-        width: 30%;
-        margin:15px 0 15px 0;
-        font-size: 1em;
-        color: #000;
+            width: 30%;
+            margin: 15px 0 15px 0;
+            font-size: 1em;
+            color: #000;
+        }
+
+        figure {
+            width: 33.33%;
+            float: left;
+        }
+
+        #center_imgs {
+            text-align: center;
+            margin-top: 40px;
+        }
+
+        figcaption {
+            margin-bottom: 50px;
         }
     </style>
 </head>
 
 <body>
     <main>
-        <section>
-            <h1>Audience Test Results</h1>
+        <h1>Audience Test Results</h1>
+        <section id="center_imgs">
             <figure>
-                <img src="notes.jpg" alt="Notes of User Testing">
-                <figcaption>User Testing notes</figcaption>
+                <img src="person1.JPG" width="372" height="350" alt="Notes of User Testing - Person 1">
+                <figcaption>User Testing notes, Person 1</figcaption>
             </figure>
-
-            <section class="mar_left mar_top">
-                <h2>Person 1 (Student)</h2>
-                <ul>
-                    <li>Navigation page was not confusing</li>
-                    <li>The colors and font of text were legible</li>
-                    <li>Not necessarily understand meaning of project from homepage alone</li>
-                    <li>Resized screen for responsiveness capabilities</li>
-
-                </ul>
-            </section>
-
-            <section class="mar_left mar_top">
-                <h2>Person 2 (Student)</h2>
-                <ul>
-                    <li>Tested animation on main menu</li>
-                    <li>Noticed that content doesn't wrap when resized, tested for other repsonsive features</li>
-                    <li>Recommended constraining width of content in 'About page' and reduce font size</li>
-                    <li>Place home button link on every page</li>
-
-                </ul>
-            </section>
-
-            <section class="mar_left mar_top">
-                <h2>Person 3 (Blind)</h2>
-                <ul>
-                    <li>Focus on keystrokes, links, headers, and buttons</li>
-                    <li>Labelling help vision-impaired people utilize keystrokes to function</li>
-                    <li>Explore use of sound as an auditory guide</li>
-                </ul>
-            </section>
-
+            <figure>
+                <img src="person2.JPG" width="252" height="350" alt="Notes of User Testing - Person 2">
+                <figcaption>User Testing notes, Person 2</figcaption>
+            </figure>
+            <figure>
+                <img src="person3.JPG" width="271" height="350" alt="Notes of User Testing - Person 3">
+                <figcaption>User Testing notes, Person 3</figcaption>
+            </figure>
         </section>
+
+        <section class="mar_left ">
+            <h2>Person 1 (Student)</h2>
+            <ul>
+                <li>Navigation page was not confusing</li>
+                <li>The colors and font of text were legible</li>
+                <li>Not necessarily understand meaning of project from homepage alone</li>
+                <li>Resized screen for responsiveness capabilities</li>
+
+            </ul>
+        </section>
+
+        <section class="mar_left mar_top">
+            <h2>Person 2 (Student)</h2>
+            <ul>
+                <li>Tested animation on main menu</li>
+                <li>Noticed that content doesn't wrap when resized, tested for other repsonsive features</li>
+                <li>Recommended constraining width of content in 'About page' and reduce font size</li>
+                <li>Place home button link on every page</li>
+
+            </ul>
+        </section>
+
+        <section class="mar_left mar_top">
+            <h2>Person 3 (Blind Individual)</h2>
+            <ul>
+                <li>Focus on keystrokes, links, headers, and buttons</li>
+                <li>Labelling help vision-impaired people utilize keystrokes to function</li>
+                <li>Explore use of sound as an auditory guide</li>
+            </ul>
+        </section>
+
+
         <section class="mar_left mar_top">
             <h2>My experience, what I learned, and moving forward</h2>
             <p class="p_width">
-              I enjoyed the User Feedback that I receieved from each of my audience members. It was a pleasant experience not only for them to test out my project, but also to provide helpful feedback that has the potential to add clarity to my project. I learned that it is up to the designer/developer to guide the user through their site. In addition, my word choice for my menu links need to be thought out more, because one user noted that two links were ambiguous, "Explore" and "Discover."
+                I enjoyed the User Feedback that I receieved from each of my audience members. It was a pleasant experience not only for them to test out my project, but also to provide helpful feedback that has the potential to add clarity to my project. I learned that
+                it is up to the designer/developer to guide the user through their site. In addition, my word choice for my menu links need to be thought out more, because one user noted that two links were ambiguous, "Explore" and "Discover."
             </p>
 
             <p class="p_width">
-              Lastly, I learned about developing for impaired individuals and empower them with accessibility tools such as voice and manipulation of keystrokes. Moving forward, I plan to change a couple of the menu links to make my main menu more coherent. Also, I plan to incorporate keystroke functionality for indivduals like my Person 3 user.
+                Lastly, I learned about developing for impaired individuals and empower them with accessibility tools such as voice and manipulation of keystrokes. Moving forward, I plan to change a couple of the menu links to make my main menu more coherent. Also, I
+                plan to incorporate keystroke functionality for indivduals like my Person 3 user.
             </p>
         </section>
     </main>
