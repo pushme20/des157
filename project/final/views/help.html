@@ -23,19 +23,30 @@
 <section id="help-content">
     <section class="column col-3">
         <h2 data-ng-click="showFirstQuestion = !showFirstQuestion">Why use this site?</h2>
-        <h2 data-ng-click="showSecondQuestion = !showSecondQuestion">How do I start?</h2>
+        <h2 data-ng-click="showSecondQuestion = !showSecondQuestion" id="questionTwo">How do I start?</h2>
         <h2 data-ng-click="showThirdQuestion = !showThirdQuestion">How do I leave feedback?</h2>
     </section>
 
     <div id="vertical-line" class="column col-3">
 
     </div>
-<!-- <script src="scripthelp.js" type="text/javascript"></script> -->
-    <div >Fade1</div>
-    <div data-ng-show="showFirstQuestion" class="fade_in_out" id="firstQ"><p>
-      This is the first question This is the first question This is the first questionThis is the first questionThis is the first questionThis is the first questionThis is the first questionThis is the first questionThis is the first questionThis is the first questionThis is the first questionThis is the first questionThis is the first questionThis is the first questionThis is the first questionThis is the first questionThis is the first questionThis is the first questionThis is the first question
+    <!-- <script src="scripthelp.js" type="text/javascript"></script> -->
+    <!-- <div>Fade1</div> -->
+    <div data-ng-hide="showFirstQuestion" class="fade_in_out" id="firstQ">
+        <p>
+            This is the first question This is the first question This is the first questionThis is the first questionThis is the first questionThis is the first questionThis is the first questionThis is the first questionThis is the first questionThis is the first
+            questionThis is the first question This is the first question This is the first questionThis is the first question
 
-    </p></div>
+        </p>
+    </div>
+
+    <div data-ng-hide="showSecondQuestion" class="fade_in_out" id="secondQ">
+        <p>
+            This is the second questionThis is the second questionThis is the second questionThis is the second questionThis is the second questionThis is the second questionThis is the second questionThis is the second questionThis is the second questionThis is
+            the second questionThis is the second question
+
+        </p>
+    </div>
 
     <!-- <div >Fade2</div>
     <div data-ng-show="showSecondQuestion" class="fade_in_out">Second Fade</div>
