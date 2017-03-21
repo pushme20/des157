@@ -456,6 +456,57 @@ main.ng-enter.ng-enter-active {
     margin-left: 300px;
 }
 
+#handle {
+    color: black;
+}
+
+#slideSource {
+    color: black;
+}
+
+#slideSource {
+    opacity: 1;
+    transition: opacity 1s;
+}
+
+#slideSource.fade {
+    opacity: 0;
+}
+
+#handle2 {
+    color: black;
+}
+
+#slideSource2 {
+    color: black;
+}
+
+#slideSource2 {
+    opacity: 1;
+    transition: opacity 1s;
+}
+
+#slideSource2.fade {
+    opacity: 0;
+}
+
+#handle3 {
+    color: black;
+}
+
+#slideSource3 {
+    color: black;
+}
+
+#slideSource3 {
+    opacity: 1;
+    transition: opacity 1s;
+}
+
+#slideSource3.fade {
+    opacity: 0;
+}
+
 
 /*fade in and out options for JS */
 
@@ -478,7 +529,7 @@ div #slideSource.fade {
 }*/
 
 .fade_in_out {
-    transition: 0.7s;
+    transition: 0.3s;
     opacity: 1;
 }
 
