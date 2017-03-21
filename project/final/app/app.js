@@ -29,6 +29,7 @@ app.config(['$routeProvider', '$locationProvider', function($routeProvider, $loc
             templateUrl: 'views/help.html',
             controller: 'appController',
             css: 'css/help.css'
+
         })
         .when('/success-page', {
             templateUrl: 'views/success-page.html',
