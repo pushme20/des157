@@ -1,0 +1,103 @@
+/* === CSS TYPOGRAPHY === */
+
+#firstQ p {
+    font-size: 1.5em;
+}
+
+#help-page {
+    font-family: 'Sansita', sans-serif;
+    font-size: 3.4em;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+#help-content h2 {
+    margin-top: 30px;
+    margin-left: 105px;
+    color: #63442a;
+    font-family: 'Sansita', sans-serif;
+    font-size: 2.3em;
+    line-height: 240%;
+    width: 4in;
+}
+
+
+/* === CSS BACKGROUND === */
+
+#help-page {
+    background-color: #f7bd69;
+    color: #63442a;
+}
+
+
+/* === CSS BOX MODEL === */
+
+#help-page {
+    padding: 0.2em 0.2em 0.2em 0.2em;
+    width: 2in;
+    margin-left: 49px;
+}
+
+
+/* === CSS GRID === */
+
+
+/* === CSS POSITIONING === */
+
+
+/* === CSS RESPONSIVE === */
+
+
+/* === CSS EXTRA === */
+
+#help-content h2:hover {
+    color: #ffffff;
+    cursor: pointer;
+    transition: 0.7s;
+}
+
+#help-page {
+    transition: width 1.3s;
+}
+
+#firstQ {
+    padding: 1em;
+    background-color: #63442a;
+    color: #ffffff;
+    /*line-height: 55.2pt;*/
+    line-height: 35pt;
+    border-radius: 15px;
+    width: 40%;
+    float: left;
+    margin-left: 50px;
+    margin-top: 40px;
+    /*position: absolute;
+    top: 260px;
+    right: 130px;*/
+}
+
+#secondQ {
+    padding: 1em;
+    background-color: #63442a;
+    color: #ffffff;
+    /*line-height: 55.2pt;*/
+    line-height: 35pt;
+    border-radius: 15px;
+    width: 40%;
+    float: left;
+    margin-left: 50px;
+    margin-top: 40px;
+    /*position: absolute;
+    top: 260px;
+    right: 130px;*/
+}
+
+#secondQ p {
+    font-size: 1.5em;
+}
+
+#help-content {
+    margin-top: 25px;
+    background-color: #f7bd69;
+    height: 400px;
+}
