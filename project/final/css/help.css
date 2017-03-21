@@ -96,8 +96,41 @@
     font-size: 1.5em;
 }
 
+#thirdQ {
+    padding: 1em;
+    background-color: #63442a;
+    color: #ffffff;
+    /*line-height: 55.2pt;*/
+    line-height: 35pt;
+    border-radius: 15px;
+    width: 40%;
+    float: left;
+    margin-left: 50px;
+    margin-top: 40px;
+    /*position: absolute;
+    top: 260px;
+    right: 130px;*/
+}
+
+#thirdQ p {
+    font-size: 1.5em;
+}
+
 #help-content {
     margin-top: 25px;
     background-color: #f7bd69;
     height: 400px;
 }
+
+
+/*#firstQ {
+    display: none;
+}
+
+#content1 {
+    visibility: hidden;
+}
+
+#content2 {
+    visibility: hidden;
+}*/
