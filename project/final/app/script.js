@@ -39,7 +39,7 @@ $(document).ready(function() {
 
     $("#questionTwo").click(function() {
 
-        $("#content1").html("questionThis is the second question questionThis is the second questionquestionThis is the second questionquestionThis is the second questionquestionThis is the second questionquestionThis is the second questionquestionThis is the second question").
+        $("#content1").html("questionThis is the second question questionThis is the second questionquestionThis is the second questionquestionThis is the second questionquestionThis is the second questionquestionThis is the second questionquestionThis is the second question");
         // $("#secondQ").fadeToggle("slow", function() {
         //     // Animation complete
         // });
