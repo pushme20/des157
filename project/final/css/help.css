@@ -132,3 +132,19 @@
     background-color: #f7bd69;
     height: 400px;
 }
+
+#contact a {
+    color: #ffffff;
+}
+
+#contact a:link {
+    color: #ffffff;
+}
+
+#contact a:visited {
+    color: #ffffff;
+}
+
+#contact a:hover {
+    color: #f7bd69;
+}
