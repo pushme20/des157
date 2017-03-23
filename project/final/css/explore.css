@@ -1,0 +1,36 @@
+#explore-page {
+    font-family: 'Sansita', sans-serif;
+    font-size: 3.4em;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: #3185fc;
+    color: #e4ffe5;
+}
+
+#explore-page {
+    padding: 0.2em;
+    width: 3in;
+    transition: width 1.3s;
+}
+
+.content h2 {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.content {
+    margin-top: 25px;
+    background-color: #3185fc;
+    height: 400px;
+}
+
+.content h2 {
+    font-size: 2.5em;
+    color: #e4ffe5;
+    font-family: 'Sansita', sans-serif;
+}
+
+.content form {
+    /*text-align: center;*/
+    /*margin-top: 25px;*/
+}
