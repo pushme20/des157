@@ -14,7 +14,8 @@ app.config(['$routeProvider', '$locationProvider', function($routeProvider, $loc
         })
         .when('/explore', {
             templateUrl: 'views/explore.html',
-            controller: 'appController'
+            controller: 'appController',
+            css: 'css/explore.css'
         })
         .when('/discover', {
             templateUrl: 'views/discover.html',
