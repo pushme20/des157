@@ -441,17 +441,6 @@ main.ng-enter.ng-enter-active {
     opacity: 1;
 }
 
-#vertical-line {
-    width: 3px;
-    /* Line width */
-    background-color: #63442a;
-    /* Line color */
-    height: 80%;
-    margin-top: 40px;
-    float: left;
-    margin-left: 400px;
-}
-
 #answers {
     margin-left: 300px;
 }

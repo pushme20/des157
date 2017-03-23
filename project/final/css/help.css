@@ -18,7 +18,7 @@
     font-family: 'Sansita', sans-serif;
     font-size: 2.3em;
     line-height: 240%;
-    width: 4in;
+    width: 4.1in;
 }
 
 
@@ -36,6 +36,17 @@
     padding: 0.2em 0.2em 0.2em 0.2em;
     width: 2in;
     margin-left: 49px;
+}
+
+#vertical-line {
+    width: 2px;
+    /* Line width */
+    background-color: #63442a;
+    /* Line color */
+    height: 80%;
+    margin-top: 40px;
+    float: left;
+    margin-left: 375px;
 }
 
 
@@ -121,16 +132,3 @@
     background-color: #f7bd69;
     height: 400px;
 }
-
-
-/*#firstQ {
-    display: none;
-}
-
-#content1 {
-    visibility: hidden;
-}
-
-#content2 {
-    visibility: hidden;
-}*/
