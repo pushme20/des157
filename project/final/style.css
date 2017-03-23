@@ -349,50 +349,16 @@ li {
     color: #e4ffe5;
 }
 
-#inner-about-content {
-    padding: 1em;
-    background-color: #0e6045;
-    color: #a1d542;
-    line-height: 55.2pt;
-    border-radius: 15px;
-    width: 60%;
-    margin: auto;
-    position: absolute;
-    top: 260px;
-    right: 280px;
-}
-
-#inner-about-content p {
-    font-size: 1.5em;
-}
-
 #start_message {
     font-size: 20px;
     text-align: left;
     margin-left: 40px;
 }
 
-#about-page {
-    padding: 0.2em 0.2em 0.2em 0.2em;
-    width: 2in;
-    transition: width 1.3s;
-    margin-left: 49px;
-}
-
 #explore-page {
     padding: 0.2em;
     width: 3in;
     transition: width 1.3s;
-}
-
-#about-content {
-    margin-top: 25px;
-    background-color: #a1d542;
-    height: 400px;
-    /*padding-top: 95px;*/
-    /*position: absolute;
-    top: 50px;
-    right: 50px;*/
 }
 
 .content h2 {
@@ -445,77 +411,8 @@ main.ng-enter.ng-enter-active {
     margin-left: 300px;
 }
 
-#handle {
-    color: black;
-}
-
-#slideSource {
-    color: black;
-}
-
-#slideSource {
-    opacity: 1;
-    transition: opacity 1s;
-}
-
-#slideSource.fade {
-    opacity: 0;
-}
-
-#handle2 {
-    color: black;
-}
-
-#slideSource2 {
-    color: black;
-}
-
-#slideSource2 {
-    opacity: 1;
-    transition: opacity 1s;
-}
-
-#slideSource2.fade {
-    opacity: 0;
-}
-
-#handle3 {
-    color: black;
-}
-
-#slideSource3 {
-    color: black;
-}
-
-#slideSource3 {
-    opacity: 1;
-    transition: opacity 1s;
-}
-
-#slideSource3.fade {
-    opacity: 0;
-}
-
 
 /*fade in and out options for JS */
-
-
-/*#handle {
-  color: white;
-}
-
-#slideSource {
-  color: white;
-}
-
-div #slideSource {
-  opacity: 1;
-  transition: opacity 1s;
-}
-
-div #slideSource.fade {
-  opacity: 0;
-}*/
 
 .fade_in_out {
     transition: 0.3s;

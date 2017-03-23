@@ -1,12 +1,3 @@
-/*#about-page {
-    font-family: 'Sansita', sans-serif;
-    font-size: 3.4em;
-    text-transform: uppercase;
-    text-align: center;
-    background-color: #a1d542;
-    color: #0e6045;
-}*/
-
 #about-page {
     font-family: 'Sansita', sans-serif;
     font-size: 3.4em;
@@ -14,4 +5,38 @@
     text-align: center;
     background-color: #a1d542;
     color: #0e6045;
+}
+
+#about-page {
+    padding: 0.2em 0.2em 0.2em 0.2em;
+    width: 2in;
+    transition: width 1.3s;
+    margin-left: 49px;
+}
+
+#about-content {
+    margin-top: 25px;
+    background-color: #a1d542;
+    height: 400px;
+    /*padding-top: 95px;*/
+    /*position: absolute;
+    top: 50px;
+    right: 50px;*/
+}
+
+#inner-about-content {
+    padding: 1em;
+    background-color: #0e6045;
+    color: #a1d542;
+    line-height: 55.2pt;
+    border-radius: 15px;
+    width: 60%;
+    margin: auto;
+    position: absolute;
+    top: 260px;
+    right: 280px;
+}
+
+#inner-about-content p {
+    font-size: 1.5em;
 }
