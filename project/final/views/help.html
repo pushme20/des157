@@ -6,17 +6,30 @@
 
 <section id="help-content">
     <section class="column col-3">
-        <h2 id="questionOne">Why should I use this site?</h2>
-        <h2 id="questionTwo">How do I start?</h2>
-        <h2 id="questionThree">How do I leave feedback?</h2>
+        <h2 id="questionOne" ng-click="showMe=1 ;showQ = true" ;>Why should I use this site?</h2>
+        <h2 id="questionTwo" ng-click="showMe=2 ;showQ = true">How do I start?</h2>
+        <h2 id="questionThree" ng-click="showMe=3 ;showQ = true">How do I leave feedback?</h2>
     </section>
 
     <div id="vertical-line" class="column col-3">
     </div>
 
-    <div id="firstQ">
-        <p id="content1">
+    <div id="firstQ" ng-show="showQ">
+        <!-- <p id="content1">
 
+        </p> -->
+
+        <p ng-show="showMe==1">
+            To develop awareness and empower people to learn about each other. This site is designed to foster exploration, growth, and a welcoming community for all types of individuals.
+        </p>
+
+        <p ng-show="showMe==2">
+            Click the logo in the upper right hand corner to be taken to the main menu. You may then select 'Explore' or 'Discover' to decide which culture you wish to learn about. 'Explore' is meant for those who are unsure of where to begin. Start there for a more
+            wholesome experience!
+        </p>
+
+        <p ng-show="showMe==3">
+            third
         </p>
     </div>
 </section>
