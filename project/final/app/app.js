@@ -14,7 +14,7 @@ app.config(['$routeProvider', '$locationProvider', function($routeProvider, $loc
         })
         .when('/explore', {
             templateUrl: 'views/explore.html',
-            controller: 'appController',
+            controller: 'mapCtrl as vm',
             css: 'css/explore.css'
         })
         .when('/discover', {
@@ -59,6 +59,11 @@ app.config(['$routeProvider', '$locationProvider', function($routeProvider, $loc
 //     // });
 //
 // }]);
+app.run(function($rootScope, NgMap) {
+    NgMap.getMap().then(function(map) {
+        $rootScope.map = map;
+    });
+});
 
 app.controller('appController', ['$scope', '$rootScope', function($rootScope, $scope) {
     // $rootScope.$on('mapInitialized', function(evt, map) {
@@ -70,8 +75,24 @@ app.controller('appController', ['$scope', '$rootScope', function($rootScope, $s
         $rootScope.mymap = map;
         $rootScope.$apply();
     });
+
+
+
 }]);
 
+app.controller('mapCtrl', function(NgMap) {
+    var vm = this;
+    vm.types = "['establishment']";
+    vm.placeChanged = function() {
+        vm.place = this.getPlace();
+        console.log('location', vm.place.geometry.location);
+        vm.map.setCenter(vm.place.geometry.location);
+    }
+    NgMap.getMap().then(function(map) {
+        vm.map = map;
+    });
+
+});
 // $scope.continents = [{
 //         name: "Europe",
 //         country1: "Sweden",
