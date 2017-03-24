@@ -34,3 +34,8 @@
     /*text-align: center;*/
     /*margin-top: 25px;*/
 }
+
+#map_width {
+    width: 80%;
+    margin: auto;
+}
