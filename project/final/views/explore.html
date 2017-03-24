@@ -28,30 +28,23 @@
             <input id="submit-button" type="submit" data-ng-disabled="exploreForm.$invalid" />
         </form>
     </section> -->
-    <section class="column col-3">
+    <!-- <section class="column col-3">
         <h2>Search</h2>
-    </section>
-    <section class="column col-9" map-lazy-load="https://maps.google.com/maps/api/js?libraries=places&key=AIzaSyDigzRUFBC8jhJfnMNQumzKoK29vmpjTw8">
-
-        <h2>Google Maps</h2>
-        <!-- <section="g-maps-box">
-
     </section> -->
-        <!-- <button data-ng-click="mapOn()">Click me</button>
-        <ng-map center="[40.74, -74.18]" id="map_width"></ng-map>
-        $scope.map.center: {{map.getCenter().lat()}}<br/> $scope.mymap.center: {{mymap.getCenter().lat()}} -->
+    <section class="" map-lazy-load="https://maps.google.com/maps/api/js?libraries=places&key=AIzaSyDigzRUFBC8jhJfnMNQumzKoK29vmpjTw8">
 
-        Auto Complete Type:
+        <h2>Google Maps</h2> Auto Complete Type:
         <select ng-model="vm.types">
-    <option value="['geocode']">Geodode</option>
     <option value="['establishment']">Establishment</option>
     <option value="['address']">Address</option>
+    <option value="['(regions)']">Regions</option>
   </select><br/> Enter an address: <br/>
-        <input places-auto-complete size=80 ng-model="vm.address" types="{{types}}" on-place-changed="vm.placeChanged()" /> <br/>
-        <div ng-show="vm.place">
+        <input places-auto-complete size=50 ng-model="vm.address" component-restrictions="" types="{{types}}" on-place-changed="vm.placeChanged()" />
+        <br/>
+        <!-- <div ng-show="vm.place">
             Address = {{vm.place.formatted_address}} <br/> Location: {{vm.place.geometry.location}}<br/>
         </div>
-        address : {{vm.address}}
+        address : {{vm.address}} -->
         <ng-map style="margin-top: 100px">
             <marker on-click="map.showInfoWindow('bar')">
             </marker>
