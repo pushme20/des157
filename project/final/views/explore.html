@@ -31,23 +31,26 @@
     <!-- <section class="column col-3">
         <h2>Search</h2>
     </section> -->
-    <section class="" map-lazy-load="https://maps.google.com/maps/api/js?libraries=places&key=AIzaSyDigzRUFBC8jhJfnMNQumzKoK29vmpjTw8">
+    <section class="col-12" map-lazy-load="https://maps.google.com/maps/api/js?libraries=places&key=AIzaSyDigzRUFBC8jhJfnMNQumzKoK29vmpjTw8">
 
-        <h2>Google Maps</h2> Search By:
-        <select ng-model="vm.types">
+        <h2>Google Maps</h2>
+        <div id="mv-mar-left">
+
+            <span id="style-search">Search By:</span>
+            <select ng-model="vm.types">
     <option value="['establishment']">Establishment</option>
     <option value="['address']">Address</option>
     <option value="['(regions)']">Regions</option>
-  </select><br/> Enter an address: <br/>
-        <input places-auto-complete size=50 ng-model="vm.address" component-restrictions="" types="{{types}}" on-place-changed="vm.placeChanged()" />
-        <br/>
+  </select><br/> <br/>
+            <input places-auto-complete size=50 ng-model="vm.address" component-restrictions="" types="{{types}}" on-place-changed="vm.placeChanged()" />
+            <br/>
+        </div>
         <!-- <div ng-show="vm.place">
             Address = {{vm.place.formatted_address}} <br/> Location: {{vm.place.geometry.location}}<br/>
         </div>
         address : {{vm.address}} -->
-        <ng-map style="margin-top: 100px">
-            <marker on-click="map.showInfoWindow('bar')">
-            </marker>
+        <ng-map default-style="true" center="38.538283, -121.761820" style="margin-top:4px">
+
         </ng-map>
     </section>
 </section>

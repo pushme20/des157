@@ -36,6 +36,16 @@
 }
 
 #map_width {
-    width: 80%;
+    width: 50%;
     margin: auto;
+}
+
+#mv-mar-left {
+    margin-left: 64px;
+}
+
+#style-search {
+    color: #e4ffe5;
+    font-family: 'Sansita', sans-serif;
+    font-size: 1em;
 }
