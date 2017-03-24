@@ -60,12 +60,17 @@ app.config(['$routeProvider', '$locationProvider', function($routeProvider, $loc
 //
 // }]);
 
-app.run(function($rootScope) {
+app.controller('appController', ['$scope', '$rootScope', function($rootScope, $scope) {
+    // $rootScope.$on('mapInitialized', function(evt, map) {
+    //     $rootScope.mymap = map;
+    //     $rootScope.$apply();
+    // });
+
     $rootScope.$on('mapInitialized', function(evt, map) {
         $rootScope.mymap = map;
         $rootScope.$apply();
     });
-});
+}]);
 
 // $scope.continents = [{
 //         name: "Europe",
