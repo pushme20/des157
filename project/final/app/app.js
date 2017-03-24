@@ -1,4 +1,4 @@
-var app = angular.module('app', ['ngRoute', 'ngAnimate', 'angularCSS']);
+var app = angular.module('app', ['ngRoute', 'ngAnimate', 'angularCSS', 'ngMap']);
 
 // app.controller('appController', function($scope) {
 //     $scope.message = "hello";
@@ -42,17 +42,31 @@ app.config(['$routeProvider', '$locationProvider', function($routeProvider, $loc
         });
 }]);
 
-app.controller('appController', ['$scope', '$http', '$location', function($scope, $http, $location) {
+// app.controller('appController', ['$scope', '$http', '$location', function($scope, $http, $location, $NgMap) {
+//
+//     $http.get('data/continents.json').then(function(response) {
+//         $scope.continents = response.data;
+//     });
+//
+//     $scope.sendMessage = function() {
+//         $location.path('success-page'); //sends us to contact-success page
+//     };
+//
+//     // $NgMap.getMap().then(function(map) {
+//     //     console.log(map.getCenter());
+//     //     console.log('markers', map.markers);
+//     //     console.log('shapes', map.shapes);
+//     // });
+//
+// }]);
 
-    $http.get('data/continents.json').then(function(response) {
-        $scope.continents = response.data;
+app.run(function($rootScope) {
+    $rootScope.$on('mapInitialized', function(evt, map) {
+        $rootScope.mymap = map;
+        $rootScope.$apply();
     });
+});
 
-    $scope.sendMessage = function() {
-        $location.path('success-page'); //sends us to contact-success page
-    };
-
-}]);
 // $scope.continents = [{
 //         name: "Europe",
 //         country1: "Sweden",
