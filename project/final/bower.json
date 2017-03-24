@@ -1,0 +1,21 @@
+{
+  "name": "des157final",
+  "description": "Final Project for DES 157",
+  "main": "index.html",
+  "authors": [
+    "Anwana Ntofon <aontofon@ucdavis.edu>"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "ngmap": "^1.18.4"
+  }
+}
