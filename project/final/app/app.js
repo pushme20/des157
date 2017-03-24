@@ -80,19 +80,19 @@ app.controller('appController', ['$scope', '$rootScope', function($rootScope, $s
 
 }]);
 
-app.controller('mapCtrl', function(NgMap) {
-    var vm = this;
-    vm.types = "['establishment']";
-    vm.placeChanged = function() {
-        vm.place = this.getPlace();
-        console.log('location', vm.place.geometry.location);
-        vm.map.setCenter(vm.place.geometry.location);
-    }
-    NgMap.getMap().then(function(map) {
-        vm.map = map;
+app.controller('mapCtrl',
+    function(NgMap) {
+        var vm = this;
+        vm.types = "['establishment']";
+        vm.placeChanged = function() {
+            vm.place = this.getPlace();
+            console.log('location', vm.place.geometry.location);
+            vm.map.setCenter(vm.place.geometry.location);
+        }
+        NgMap.getMap().then(function(map) {
+            vm.map = map;
+        });
     });
-
-});
 // $scope.continents = [{
 //         name: "Europe",
 //         country1: "Sweden",
